@@ -1,0 +1,2798 @@
+{
+  "corpus-id": "abstract-t8-1",
+  "entries": {
+    "doc-0_12_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-4"
+              ],
+              "anchors": "ss-3",
+              "eventid": "event1",
+              "helpful-harmful": "harmful",
+              "material-verbal": "material",
+              "patients": [
+                "ss-2"
+              ]
+            },
+            "event2": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event2",
+              "helpful-harmful": "neutral",
+              "material-verbal": "material",
+              "patients": [
+                "ss-2"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "pull away",
+                  "string": "pull away"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "bus",
+                  "string": "a bus"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "closed in",
+                  "string": "closed in"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "mob",
+                  "string": "a mob"
+                }
+              ],
+              "ssid": "ss-4"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-0",
+      "entry-id": "doc-0_12_0",
+      "segment-text": "On the afternoon of Oct. 7, 1974, a mob of 200 enraged whites, many of them students, closed in on a bus filled with black students that was trying to pull away from the local high school.",
+      "segment-type": "sentence",
+      "sent-id": "12"
+    },
+    "doc-0_28_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [],
+              "anchors": "ss-10",
+              "eventid": "event1",
+              "helpful-harmful": "neutral",
+              "material-verbal": "material",
+              "patients": [
+                "ss-11"
+              ]
+            },
+            "event2": {
+              "agents": [
+                "ss-8"
+              ],
+              "anchors": "ss-7",
+              "eventid": "event2",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-9"
+              ]
+            },
+            "event3": {
+              "agents": [],
+              "anchors": "ss-9",
+              "eventid": "event3",
+              "helpful-harmful": "harmful",
+              "material-verbal": "material",
+              "patients": []
+            },
+            "event4": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event4",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-3"
+              ]
+            },
+            "event5": {
+              "agents": [
+                "ss-5"
+              ],
+              "anchors": "ss-4",
+              "eventid": "event5",
+              "helpful-harmful": "harmful",
+              "material-verbal": "material",
+              "patients": [
+                "ss-6"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "insisted",
+                  "string": "insisted"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-10": {
+              "spans": [
+                {
+                  "hstring": "found",
+                  "string": "found"
+                }
+              ],
+              "ssid": "ss-10"
+            },
+            "ss-11": {
+              "spans": [
+                {
+                  "hstring": "weapon",
+                  "string": "weapon"
+                }
+              ],
+              "ssid": "ss-11"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "driver",
+                  "string": "The bus driver"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "shot",
+                  "string": "shot"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "firing",
+                  "string": "firing"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "someone",
+                  "string": "someone"
+                }
+              ],
+              "ssid": "ss-5"
+            },
+            "ss-6": {
+              "spans": [
+                {
+                  "hstring": "bus",
+                  "string": "the bus"
+                }
+              ],
+              "ssid": "ss-6"
+            },
+            "ss-7": {
+              "spans": [
+                {
+                  "hstring": "indicate",
+                  "string": "indicate"
+                }
+              ],
+              "ssid": "ss-7"
+            },
+            "ss-8": {
+              "spans": [
+                {
+                  "hstring": "evidence",
+                  "string": "no evidence"
+                }
+              ],
+              "ssid": "ss-8"
+            },
+            "ss-9": {
+              "spans": [
+                {
+                  "hstring": "shot",
+                  "string": "shot"
+                }
+              ],
+              "ssid": "ss-9"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-0",
+      "entry-id": "doc-0_28_0",
+      "segment-text": "No weapon was found, and there was no evidence to indicate that the shot had come from the bus. The bus driver insisted it had not come from the bus, but from someone firing at the bus.",
+      "segment-type": "sentence",
+      "sent-id": "28"
+    },
+    "doc-0_47_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-6",
+              "eventid": "event1",
+              "helpful-harmful": "neutral",
+              "material-verbal": "material",
+              "patients": []
+            },
+            "event2": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-4",
+              "eventid": "event2",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-5"
+              ]
+            },
+            "event3": {
+              "agents": [],
+              "anchors": "ss-5",
+              "eventid": "event3",
+              "helpful-harmful": "harmful",
+              "material-verbal": "material",
+              "patients": []
+            },
+            "event4": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event4",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-3"
+              ]
+            },
+            "event5": {
+              "agents": [],
+              "anchors": "ss-3",
+              "eventid": "event5",
+              "helpful-harmful": "harmful",
+              "material-verbal": "material",
+              "patients": []
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "report",
+                  "string": "report"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "witness",
+                  "string": "the main witness"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "kidnapping",
+                  "string": "kidnapping"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "reporting",
+                  "string": "reporting"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "crimes",
+                  "string": "crimes"
+                }
+              ],
+              "ssid": "ss-5"
+            },
+            "ss-6": {
+              "spans": [
+                {
+                  "hstring": "witness",
+                  "string": "witness"
+                }
+              ],
+              "ssid": "ss-6"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-0",
+      "entry-id": "doc-0_47_0",
+      "segment-text": "Never mind that the main witness, a former girlfriend of Mr. Tyler's, was a troubled youngster who had been under the care of a psychiatrist and had a history of reporting phony crimes to the police, including a false report of a kidnapping.",
+      "segment-type": "sentence",
+      "sent-id": "47"
+    },
+    "doc-0_4_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [],
+              "anchors": "ss-5",
+              "eventid": "event1",
+              "helpful-harmful": "harmful",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-6"
+              ]
+            },
+            "event2": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event2",
+              "helpful-harmful": "harmful",
+              "material-verbal": "material",
+              "patients": [
+                "ss-3"
+              ]
+            },
+            "event3": {
+              "agents": [
+                "ss-3"
+              ],
+              "anchors": "ss-4",
+              "eventid": "event3",
+              "helpful-harmful": "harmful",
+              "material-verbal": "material",
+              "patients": [
+                "ss-3"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "closed in",
+                  "string": "closed in"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "mob",
+                  "string": "a mob"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "bus",
+                  "string": "a bus"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "pull away",
+                  "string": "pull away"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "enraged",
+                  "string": "enraged"
+                }
+              ],
+              "ssid": "ss-5"
+            },
+            "ss-6": {
+              "spans": [
+                {
+                  "hstring": "whites",
+                  "string": "whites"
+                }
+              ],
+              "ssid": "ss-6"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-0",
+      "entry-id": "doc-0_4_0",
+      "segment-text": "On the afternoon of Oct. 7, 1974, a mob of 200 enraged whites, many of them students, closed in on a bus filled with black students that was trying to pull away from the local high school.",
+      "segment-type": "sentence",
+      "sent-id": "4"
+    },
+    "doc-0_6_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-4",
+              "eventid": "event1",
+              "helpful-harmful": "harmful",
+              "material-verbal": "verbal",
+              "patients": []
+            },
+            "event2": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event2",
+              "helpful-harmful": "harmful",
+              "material-verbal": "material",
+              "patients": [
+                "ss-3"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "bombarded",
+                  "string": "bombarded"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "They",
+                  "string": "They"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "bus",
+                  "string": "the bus"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "screamed",
+                  "string": "screamed"
+                }
+              ],
+              "ssid": "ss-4"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-0",
+      "entry-id": "doc-0_6_0",
+      "segment-text": "They screamed racial epithets and bombarded the bus with rocks and bottles.",
+      "segment-type": "sentence",
+      "sent-id": "6"
+    },
+    "doc-1000_1_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event1",
+              "helpful-harmful": "neutral",
+              "material-verbal": "material",
+              "patients": []
+            },
+            "event2": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-3",
+              "eventid": "event2",
+              "helpful-harmful": "helpful",
+              "material-verbal": "material",
+              "patients": [
+                "ss-4"
+              ]
+            },
+            "event3": {
+              "agents": [
+                "ss-2",
+                "ss-4"
+              ],
+              "anchors": "ss-5",
+              "eventid": "event3",
+              "helpful-harmful": "harmful",
+              "material-verbal": "both",
+              "patients": [
+                "ss-6"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "Dancing",
+                  "string": "Dancing"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "Cindy Sheehan",
+                  "string": "Cindy Sheehan"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "hugging",
+                  "string": "hugging"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "supporters",
+                  "string": "her supporters"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "rally",
+                  "string": "rally"
+                }
+              ],
+              "ssid": "ss-5"
+            },
+            "ss-6": {
+              "spans": [
+                {
+                  "hstring": "war",
+                  "string": "anti-Iraq war"
+                }
+              ],
+              "ssid": "ss-6"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1000",
+      "entry-id": "doc-1000_1_0",
+      "segment-text": "Dancing to reggae music and hugging her supporters, Cindy Sheehan led an anti-Iraq war rally Saturday at a one-acre campsite adjoining the ranch where President Bush is spending his holiday weekend.",
+      "segment-type": "sentence",
+      "sent-id": "1"
+    },
+    "doc-1000_24_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event1",
+              "helpful-harmful": "helpful",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-3"
+              ]
+            },
+            "event2": {
+              "agents": [],
+              "anchors": "ss-4",
+              "eventid": "event2",
+              "helpful-harmful": "harmful",
+              "material-verbal": "material",
+              "patients": [
+                "ss-5"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "coalesced",
+                  "string": "coalesced"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "group",
+                  "string": "That group"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "Gary Qualls",
+                  "string": "Gary Qualls"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "killed",
+                  "string": "killed"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "son",
+                  "string": "Marine son"
+                }
+              ],
+              "ssid": "ss-5"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1000",
+      "entry-id": "doc-1000_24_0",
+      "segment-text": "That group has coalesced around Gary Qualls, from nearby Temple, Tex., whose Marine son was killed in Fallujah last year.",
+      "segment-type": "sentence",
+      "sent-id": "24"
+    },
+    "doc-1000_3_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event1",
+              "helpful-harmful": "neutral",
+              "material-verbal": "material",
+              "patients": [
+                "ss-2"
+              ]
+            },
+            "event2": {
+              "agents": [],
+              "anchors": "ss-3",
+              "eventid": "event2",
+              "helpful-harmful": "neutral",
+              "material-verbal": "material",
+              "patients": []
+            },
+            "event3": {
+              "agents": [],
+              "anchors": "ss-4",
+              "eventid": "event3",
+              "helpful-harmful": "harmful",
+              "material-verbal": "material",
+              "patients": [
+                "ss-5"
+              ]
+            },
+            "event4": {
+              "agents": [
+                "ss-7"
+              ],
+              "anchors": "ss-6",
+              "eventid": "event4",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": []
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "came",
+                  "string": "came"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "hundreds",
+                  "string": "hundreds"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "events",
+                  "string": "events"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "killed",
+                  "string": "killed"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "son",
+                  "string": "Sheehan's son"
+                }
+              ],
+              "ssid": "ss-5"
+            },
+            "ss-6": {
+              "spans": [
+                {
+                  "hstring": "addressing",
+                  "string": "addressing"
+                }
+              ],
+              "ssid": "ss-6"
+            },
+            "ss-7": {
+              "spans": [
+                {
+                  "hstring": "Sheehan",
+                  "string": "Sheehan"
+                }
+              ],
+              "ssid": "ss-7"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1000",
+      "entry-id": "doc-1000_3_0",
+      "segment-text": "Unlike then, when hundreds came from all over the country for major events at the two campsites named after Sheehan's son, who was killed in Iraq, Sheehan found herself addressing a crowd of only about 100 Saturday afternoon.",
+      "segment-type": "sentence",
+      "sent-id": "3"
+    },
+    "doc-1000_5_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event1",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-3"
+              ]
+            },
+            "event2": {
+              "agents": [],
+              "anchors": "ss-4",
+              "eventid": "event2",
+              "helpful-harmful": "helpful",
+              "material-verbal": "both",
+              "patients": [
+                "ss-3"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "signed",
+                  "string": "signed"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "Sheehan",
+                  "string": "Sheehan"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "copies",
+                  "string": "copies of her new book"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "published",
+                  "string": "published"
+                }
+              ],
+              "ssid": "ss-4"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1000",
+      "entry-id": "doc-1000_5_0",
+      "segment-text": "In the morning Sheehan signed copies of her new book, being published this week, for an even smaller crowd.",
+      "segment-type": "sentence",
+      "sent-id": "5"
+    },
+    "doc-1001_13_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event1",
+              "helpful-harmful": "harmful",
+              "material-verbal": "both",
+              "patients": []
+            },
+            "event3": {
+              "agents": [
+                "ss-1"
+              ],
+              "anchors": "ss-3",
+              "eventid": "event3",
+              "helpful-harmful": "harmful",
+              "material-verbal": "material",
+              "patients": [
+                "ss-4"
+              ]
+            },
+            "event4": {
+              "agents": [
+                "ss-6"
+              ],
+              "anchors": "ss-5",
+              "eventid": "event4",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-3"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "strike",
+                  "string": "strike"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "employes",
+                  "string": "Amtrak employes"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "delays",
+                  "string": "delays"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "trains",
+                  "string": "trains"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "said",
+                  "string": "said"
+                }
+              ],
+              "ssid": "ss-5"
+            },
+            "ss-6": {
+              "spans": [
+                {
+                  "hstring": "R. Clifford Black",
+                  "string": "Amtrak spokesman R. Clifford Black"
+                }
+              ],
+              "ssid": "ss-6"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1001",
+      "entry-id": "doc-1001_13_0",
+      "segment-text": "A wildcat strike by Amtrak employes in New Haven, Conn., caused minimal delays to trains serving the Washington area yesterday, said Amtrak spokesman R. Clifford Black.",
+      "segment-type": "sentence",
+      "sent-id": "13"
+    },
+    "doc-1002_11_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-2",
+                "ss-3"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event1",
+              "helpful-harmful": "neutral",
+              "material-verbal": "material",
+              "patients": [
+                "ss-2",
+                "ss-3"
+              ]
+            },
+            "event2": {
+              "agents": [
+                "ss-2",
+                "ss-3"
+              ],
+              "anchors": "ss-4",
+              "eventid": "event2",
+              "helpful-harmful": "neutral",
+              "material-verbal": "material",
+              "patients": [
+                "ss-2",
+                "ss-3"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "marchers",
+                  "string": "marchers"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "marchers",
+                  "string": "several hundred fellow marchers"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "Tushar",
+                  "string": "Mahatma's great-grandson Tushar"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "walk",
+                  "string": "walk"
+                }
+              ],
+              "ssid": "ss-4"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1002",
+      "entry-id": "doc-1002_11_0",
+      "segment-text": "Mahatma's great-grandson Tushar and several hundred fellow marchers will follow the same route and take a similar length of time to walk it.",
+      "segment-type": "sentence",
+      "sent-id": "11"
+    },
+    "doc-1002_15_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [],
+              "anchors": "ss-1",
+              "eventid": "event1",
+              "helpful-harmful": "neutral",
+              "material-verbal": "both",
+              "patients": []
+            },
+            "event2": {
+              "agents": [
+                "ss-3"
+              ],
+              "anchors": "ss-2",
+              "eventid": "event2",
+              "helpful-harmful": "neutral",
+              "material-verbal": "material",
+              "patients": [
+                "ss-1"
+              ]
+            },
+            "event3": {
+              "agents": [
+                "ss-5"
+              ],
+              "anchors": "ss-4",
+              "eventid": "event3",
+              "helpful-harmful": "neutral",
+              "material-verbal": "material",
+              "patients": [
+                "ss-5"
+              ]
+            },
+            "event4": {
+              "agents": [
+                "ss-5"
+              ],
+              "anchors": "ss-6",
+              "eventid": "event4",
+              "helpful-harmful": "neutral",
+              "material-verbal": "material",
+              "patients": [
+                "ss-5"
+              ]
+            },
+            "event5": {
+              "agents": [
+                "ss-8"
+              ],
+              "anchors": "ss-7",
+              "eventid": "event5",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-4",
+                "ss-6",
+                "ss-2"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "march",
+                  "string": "march"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "attended",
+                  "string": "attended"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "Indian cabinet",
+                  "string": "nearly half of the Indian cabinet"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "walked",
+                  "string": "walked"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "many",
+                  "string": "many"
+                }
+              ],
+              "ssid": "ss-5"
+            },
+            "ss-6": {
+              "spans": [
+                {
+                  "hstring": "returning",
+                  "string": "returning"
+                }
+              ],
+              "ssid": "ss-6"
+            },
+            "ss-7": {
+              "spans": [
+                {
+                  "hstring": "observed",
+                  "string": "observed"
+                }
+              ],
+              "ssid": "ss-7"
+            },
+            "ss-8": {
+              "spans": [
+                {
+                  "hstring": "correspondent",
+                  "string": "our correspondent"
+                }
+              ],
+              "ssid": "ss-8"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1002",
+      "entry-id": "doc-1002_15_0",
+      "segment-text": "Saturday's march was attended by nearly half of the Indian cabinet, many of whom walked for a few kilometres before returning to their hotels, our correspondent observed.",
+      "segment-type": "sentence",
+      "sent-id": "15"
+    },
+    "doc-1002_18_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event1",
+              "helpful-harmful": "neutral",
+              "material-verbal": "material",
+              "patients": []
+            },
+            "event2": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-3",
+              "eventid": "event2",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-4"
+              ]
+            },
+            "event3": {
+              "agents": [],
+              "anchors": "ss-4",
+              "eventid": "event3",
+              "helpful-harmful": "harmful",
+              "material-verbal": "material",
+              "patients": []
+            },
+            "event4": {
+              "agents": [
+                "ss-6"
+              ],
+              "anchors": "ss-5",
+              "eventid": "event4",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-3",
+                "ss-1"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "came",
+                  "string": "came"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "They",
+                  "string": "They"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "identified",
+                  "string": "identified"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "battle",
+                  "string": "battle"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "told",
+                  "string": "told"
+                }
+              ],
+              "ssid": "ss-5"
+            },
+            "ss-6": {
+              "spans": [
+                {
+                  "hstring": "he",
+                  "string": "he"
+                }
+              ],
+              "ssid": "ss-6"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1002",
+      "entry-id": "doc-1002_18_0",
+      "segment-text": "They came... because they identified with this battle and I think that is the spirit,\" he told the BBC.",
+      "segment-type": "sentence",
+      "sent-id": "18"
+    },
+    "doc-1002_5_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event1",
+              "helpful-harmful": "helpful",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-3"
+              ]
+            },
+            "event2": {
+              "agents": [
+                "ss-4"
+              ],
+              "anchors": "ss-3",
+              "eventid": "event2",
+              "helpful-harmful": "neutral",
+              "material-verbal": "both",
+              "patients": []
+            },
+            "event3": {
+              "agents": [
+                "ss-6",
+                "ss-7"
+              ],
+              "anchors": "ss-5",
+              "eventid": "event3",
+              "helpful-harmful": "neutral",
+              "material-verbal": "material",
+              "patients": [
+                "ss-8"
+              ]
+            },
+            "event4": {
+              "agents": [
+                "ss-10"
+              ],
+              "anchors": "ss-9",
+              "eventid": "event4",
+              "helpful-harmful": "helpful",
+              "material-verbal": "material",
+              "patients": [
+                "ss-8"
+              ]
+            },
+            "event5": {
+              "agents": [
+                "ss-10"
+              ],
+              "anchors": "ss-11",
+              "eventid": "event5",
+              "helpful-harmful": "neutral",
+              "material-verbal": "material",
+              "patients": [
+                "ss-9"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "sparked",
+                  "string": "sparked"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-10": {
+              "spans": [
+                {
+                  "hstring": "government",
+                  "string": "government"
+                }
+              ],
+              "ssid": "ss-10"
+            },
+            "ss-11": {
+              "spans": [
+                {
+                  "hstring": "control",
+                  "string": "control"
+                }
+              ],
+              "ssid": "ss-11"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "It",
+                  "string": "It"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "movement",
+                  "string": "movement"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "civil disobedience",
+                  "string": "India's civil disobedience"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "pick up",
+                  "string": "pick up"
+                }
+              ],
+              "ssid": "ss-5"
+            },
+            "ss-6": {
+              "spans": [
+                {
+                  "hstring": "him",
+                  "string": "him"
+                }
+              ],
+              "ssid": "ss-6"
+            },
+            "ss-7": {
+              "spans": [
+                {
+                  "hstring": "thousands",
+                  "string": "thousands"
+                }
+              ],
+              "ssid": "ss-7"
+            },
+            "ss-8": {
+              "spans": [
+                {
+                  "hstring": "salt",
+                  "string": "salt"
+                }
+              ],
+              "ssid": "ss-8"
+            },
+            "ss-9": {
+              "spans": [
+                {
+                  "hstring": "production",
+                  "string": "production"
+                }
+              ],
+              "ssid": "ss-9"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1002",
+      "entry-id": "doc-1002_5_0",
+      "segment-text": "It sparked India's civil disobedience movement as thousands joined him on the beach to pick up salt, the production of which was under government control.",
+      "segment-type": "sentence",
+      "sent-id": "5"
+    },
+    "doc-1003_20_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event2": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event2",
+              "helpful-harmful": "helpful",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-3"
+              ]
+            },
+            "event3": {
+              "agents": [],
+              "anchors": "ss-4",
+              "eventid": "event3",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-5"
+              ]
+            },
+            "event4": {
+              "agents": [
+                "ss-3"
+              ],
+              "anchors": "ss-6",
+              "eventid": "event4",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-1"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "guide",
+                  "string": "guide"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "ideas",
+                  "string": "the strategic ideas"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "Obama",
+                  "string": "Obama"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "re-read",
+                  "string": "re-read"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "speech",
+                  "string": "speech"
+                }
+              ],
+              "ssid": "ss-5"
+            },
+            "ss-6": {
+              "spans": [
+                {
+                  "hstring": "speech",
+                  "string": "speech"
+                },
+                {
+                  "hstring": "statement",
+                  "string": "statement"
+                }
+              ],
+              "ssid": "ss-6"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1003",
+      "entry-id": "doc-1003_20_0",
+      "segment-text": "For a statement of the strategic ideas that guide Obama now, it's useful to re-read his Cairo speech of June 4, 2009.",
+      "segment-type": "sentence",
+      "sent-id": "20"
+    },
+    "doc-1003_31_34": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event1",
+              "helpful-harmful": "helpful",
+              "material-verbal": "verbal",
+              "patients": []
+            },
+            "event2": {
+              "agents": [],
+              "anchors": "ss-3",
+              "eventid": "event2",
+              "helpful-harmful": "harmful",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-4"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "reassure",
+                  "string": "reassure"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "he",
+                  "string": "he"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "upheaval",
+                  "string": "upheaval"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "world",
+                  "string": "the world"
+                }
+              ],
+              "ssid": "ss-4"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1003",
+      "entry-id": "doc-1003_31_34",
+      "segment-text": "He can identify with the idealistic young rebels in the street, but he also needs to reassure the world that American power is a steadying force at a time of upheaval.",
+      "segment-type": "sentence",
+      "sent-id": "31"
+    },
+    "doc-1004_2_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [],
+              "anchors": "ss-1",
+              "eventid": "event1",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-2"
+              ]
+            },
+            "event2": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-3",
+              "eventid": "event2",
+              "helpful-harmful": "helpful",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-4",
+                "ss-5"
+              ]
+            },
+            "event3": {
+              "agents": [
+                "ss-5"
+              ],
+              "anchors": "ss-6",
+              "eventid": "event3",
+              "helpful-harmful": "harmful",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-7"
+              ]
+            },
+            "event4": {
+              "agents": [],
+              "anchors": "ss-8",
+              "eventid": "event4",
+              "helpful-harmful": "neutral",
+              "material-verbal": "both",
+              "patients": []
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "Shifting",
+                  "string": "Shifting"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "alliances",
+                  "string": "Shifting alliances"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "offer",
+                  "string": "offer"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "Likud",
+                  "string": "Likud"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "opposition",
+                  "string": "the opposition"
+                }
+              ],
+              "ssid": "ss-5"
+            },
+            "ss-6": {
+              "spans": [
+                {
+                  "hstring": "topple",
+                  "string": "topple"
+                }
+              ],
+              "ssid": "ss-6"
+            },
+            "ss-7": {
+              "spans": [
+                {
+                  "hstring": "government",
+                  "string": "the government"
+                }
+              ],
+              "ssid": "ss-7"
+            },
+            "ss-8": {
+              "spans": [
+                {
+                  "hstring": "elections",
+                  "string": "elections"
+                }
+              ],
+              "ssid": "ss-8"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1004",
+      "entry-id": "doc-1004_2_0",
+      "segment-text": "Shifting alliances in Israel's parliament, the Knesset, today appeared to offer Prime Minister Menachem Begin's ruling Likud coalition the prospect of sounder footing and the opposition less opportunity to topple the government without new elections.",
+      "segment-type": "sentence",
+      "sent-id": "2"
+    },
+    "doc-1004_7_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event1",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-3"
+              ]
+            },
+            "event2": {
+              "agents": [
+                "ss-4",
+                "ss-5"
+              ],
+              "anchors": "ss-3",
+              "eventid": "event2",
+              "helpful-harmful": "helpful",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-6",
+                "ss-7"
+              ]
+            },
+            "event3": {
+              "agents": [
+                "ss-5",
+                "ss-4"
+              ],
+              "anchors": "ss-7",
+              "eventid": "event3",
+              "helpful-harmful": "neutral",
+              "material-verbal": "material",
+              "patients": [
+                "ss-8"
+              ]
+            },
+            "event4": {
+              "agents": [
+                "ss-5",
+                "ss-4"
+              ],
+              "anchors": "ss-9",
+              "eventid": "event4",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-10"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "said",
+                  "string": "said"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-10": {
+              "spans": [
+                {
+                  "hstring": "representation",
+                  "string": "Cabinet representation"
+                }
+              ],
+              "ssid": "ss-10"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "sources",
+                  "string": "Knesset sources"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "ironed out",
+                  "string": "ironed out"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "Telem",
+                  "string": "Telem"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "Likud",
+                  "string": "Likud"
+                }
+              ],
+              "ssid": "ss-5"
+            },
+            "ss-6": {
+              "spans": [
+                {
+                  "hstring": "policy",
+                  "string": "a common policy"
+                }
+              ],
+              "ssid": "ss-6"
+            },
+            "ss-7": {
+              "spans": [
+                {
+                  "hstring": "relinquishing",
+                  "string": "relinquishing"
+                }
+              ],
+              "ssid": "ss-7"
+            },
+            "ss-8": {
+              "spans": [
+                {
+                  "hstring": "Gaza Strip",
+                  "string": "any part of the occupied West Bank and Gaza Strip"
+                }
+              ],
+              "ssid": "ss-8"
+            },
+            "ss-9": {
+              "spans": [
+                {
+                  "hstring": "question",
+                  "string": "question"
+                }
+              ],
+              "ssid": "ss-9"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1004",
+      "entry-id": "doc-1004_7_0",
+      "segment-text": "Knesset sources said Telem and Likud have ironed out a common policy on the economy and opposition to relinquishing any part of the occupied West Bank and Gaza Strip, and the only remaining obstacle to a partnership is the question of Cabinet representation.",
+      "segment-type": "sentence",
+      "sent-id": "7"
+    },
+    "doc-1005_12_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event1",
+              "helpful-harmful": "harmful",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-3"
+              ]
+            },
+            "event2": {
+              "agents": [
+                "ss-5"
+              ],
+              "anchors": "ss-4",
+              "eventid": "event2",
+              "helpful-harmful": "harmful",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-6"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "disgusts",
+                  "string": "disgusts"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "food",
+                  "string": "Cheap food"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "us",
+                  "string": "us"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "put",
+                  "string": "put"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "alternatives",
+                  "string": "many of the posh alternatives"
+                }
+              ],
+              "ssid": "ss-5"
+            },
+            "ss-6": {
+              "spans": [
+                {
+                  "hstring": "you",
+                  "string": "you"
+                }
+              ],
+              "ssid": "ss-6"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1005",
+      "entry-id": "doc-1005_12_0",
+      "segment-text": "Cheap food disgusts us, but many of the posh alternatives are just as likely to put you off your dinner",
+      "segment-type": "sentence",
+      "sent-id": "12"
+    },
+    "doc-1006_22_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [],
+              "anchors": "ss-1",
+              "eventid": "event1",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": []
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "said",
+                  "string": "said"
+                }
+              ],
+              "ssid": "ss-1"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1006",
+      "entry-id": "doc-1006_22_0",
+      "segment-text": "\"The same can be said about the executives who run the game - they should be role models as well.",
+      "segment-type": "sentence",
+      "sent-id": "22"
+    },
+    "doc-1006_4_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event1",
+              "helpful-harmful": "harmful",
+              "material-verbal": "material",
+              "patients": [
+                "ss-2"
+              ]
+            },
+            "event2": {
+              "agents": [
+                "ss-4"
+              ],
+              "anchors": "ss-3",
+              "eventid": "event2",
+              "helpful-harmful": "neutral",
+              "material-verbal": "material",
+              "patients": [
+                "ss-5"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "clash",
+                  "string": "clash"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "Group D",
+                  "string": "Group D"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "reach",
+                  "string": "reach"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "Scotland",
+                  "string": "Scotland"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "France",
+                  "string": "France"
+                }
+              ],
+              "ssid": "ss-5"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1006",
+      "entry-id": "doc-1006_4_0",
+      "segment-text": "But Strachan is keen to have a fully-fit squad ahead of the Group D clash as Scotland attempt to reach France.",
+      "segment-type": "sentence",
+      "sent-id": "4"
+    },
+    "doc-1007_31_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-3"
+              ],
+              "anchors": "ss-2",
+              "eventid": "event1",
+              "helpful-harmful": "helpful",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-4"
+              ]
+            },
+            "event2": {
+              "agents": [],
+              "anchors": "ss-1",
+              "eventid": "event2",
+              "helpful-harmful": "harmful",
+              "material-verbal": "unk",
+              "patients": []
+            },
+            "event3": {
+              "agents": [
+                "ss-3"
+              ],
+              "anchors": "ss-5",
+              "eventid": "event3",
+              "helpful-harmful": "harmful",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-6"
+              ]
+            },
+            "event4": {
+              "agents": [
+                "ss-3"
+              ],
+              "anchors": "ss-6",
+              "eventid": "event4",
+              "helpful-harmful": "helpful",
+              "material-verbal": "material",
+              "patients": [
+                "ss-7"
+              ]
+            },
+            "event5": {
+              "agents": [],
+              "anchors": "ss-7",
+              "eventid": "event5",
+              "helpful-harmful": "harmful",
+              "material-verbal": "both",
+              "patients": []
+            },
+            "event6": {
+              "agents": [
+                "ss-9"
+              ],
+              "anchors": "ss-8",
+              "eventid": "event6",
+              "helpful-harmful": "helpful",
+              "material-verbal": "material",
+              "patients": [
+                "ss-10"
+              ]
+            },
+            "event7": {
+              "agents": [
+                "ss-9"
+              ],
+              "anchors": "ss-10",
+              "eventid": "event7",
+              "helpful-harmful": "harmful",
+              "material-verbal": "material",
+              "patients": []
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "crisis",
+                  "string": "crisis"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-10": {
+              "spans": [
+                {
+                  "hstring": "force",
+                  "string": "force"
+                }
+              ],
+              "ssid": "ss-10"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "brought",
+                  "string": "brought"
+                },
+                {
+                  "hstring": "head",
+                  "string": "head"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "he",
+                  "string": "he"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "crisis",
+                  "string": "the crisis"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "threatening",
+                  "string": "threatening"
+                }
+              ],
+              "ssid": "ss-5"
+            },
+            "ss-6": {
+              "spans": [
+                {
+                  "hstring": "escalate",
+                  "string": "escalate"
+                }
+              ],
+              "ssid": "ss-6"
+            },
+            "ss-7": {
+              "spans": [
+                {
+                  "hstring": "strikes",
+                  "string": "strikes"
+                }
+              ],
+              "ssid": "ss-7"
+            },
+            "ss-8": {
+              "spans": [
+                {
+                  "hstring": "resorted",
+                  "string": "resorted"
+                }
+              ],
+              "ssid": "ss-8"
+            },
+            "ss-9": {
+              "spans": [
+                {
+                  "hstring": "government",
+                  "string": "the government"
+                }
+              ],
+              "ssid": "ss-9"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1007",
+      "entry-id": "doc-1007_31_0",
+      "segment-text": "At the same time he brought the crisis to a head by threatening to escalate the strikes nationwide if the government resorted to force.",
+      "segment-type": "sentence",
+      "sent-id": "31"
+    },
+    "doc-1008_33_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event1",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-3"
+              ]
+            },
+            "event2": {
+              "agents": [],
+              "anchors": "ss-4",
+              "eventid": "event2",
+              "helpful-harmful": "neutral",
+              "material-verbal": "both",
+              "patients": []
+            },
+            "event3": {
+              "agents": [
+                "ss-6"
+              ],
+              "anchors": "ss-5",
+              "eventid": "event3",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-1"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "seize",
+                  "string": "seize"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "Obama",
+                  "string": "Obama"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "peace process",
+                  "string": "the Middle East peace process"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "meeting",
+                  "string": "meeting"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "said",
+                  "string": "said"
+                }
+              ],
+              "ssid": "ss-5"
+            },
+            "ss-6": {
+              "spans": [
+                {
+                  "hstring": "officials",
+                  "string": "White House officials"
+                }
+              ],
+              "ssid": "ss-6"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1008",
+      "entry-id": "doc-1008_33_0",
+      "segment-text": "Obama will try to \"seize momentum\" in the Middle East peace process at the meeting, White House officials said.",
+      "segment-type": "sentence",
+      "sent-id": "33"
+    },
+    "doc-1008_8_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [],
+              "anchors": "ss-1",
+              "eventid": "event1",
+              "helpful-harmful": "harmful",
+              "material-verbal": "material",
+              "patients": []
+            },
+            "event2": {
+              "agents": [
+                "ss-3"
+              ],
+              "anchors": "ss-2",
+              "eventid": "event2",
+              "helpful-harmful": "helpful",
+              "material-verbal": "material",
+              "patients": [
+                "ss-4"
+              ]
+            },
+            "event3": {
+              "agents": [],
+              "anchors": "ss-5",
+              "eventid": "event3",
+              "helpful-harmful": "harmful",
+              "material-verbal": "material",
+              "patients": []
+            },
+            "event4": {
+              "agents": [
+                "ss-7"
+              ],
+              "anchors": "ss-6",
+              "eventid": "event4",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-2"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "loss of life",
+                  "string": "loss of life"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "initiated",
+                  "string": "initiated"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "side",
+                  "string": "the Israeli side"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "violence",
+                  "string": "the violence"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "violence",
+                  "string": "violence"
+                }
+              ],
+              "ssid": "ss-5"
+            },
+            "ss-6": {
+              "spans": [
+                {
+                  "hstring": "said",
+                  "string": "said"
+                }
+              ],
+              "ssid": "ss-6"
+            },
+            "ss-7": {
+              "spans": [
+                {
+                  "hstring": "official",
+                  "string": "the official"
+                }
+              ],
+              "ssid": "ss-7"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1008",
+      "entry-id": "doc-1008_8_0",
+      "segment-text": "\"Of course we regret the loss of life, but it was not the Israeli side that initiated the violence,\" the official said.",
+      "segment-type": "sentence",
+      "sent-id": "8"
+    },
+    "doc-1009_11_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event1",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-3"
+              ]
+            },
+            "event2": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-3",
+              "eventid": "event2",
+              "helpful-harmful": "neutral",
+              "material-verbal": "material",
+              "patients": [
+                "ss-2"
+              ]
+            },
+            "event3": {
+              "agents": [],
+              "anchors": "ss-4",
+              "eventid": "event3",
+              "helpful-harmful": "helpful",
+              "material-verbal": "both",
+              "patients": [
+                "ss-5"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "said",
+                  "string": "said"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "He",
+                  "string": "He"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "hstring": "returning",
+                  "string": "returning"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "amnesty",
+                  "string": "amnesty"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "Labour party members",
+                  "string": "former Labour party members"
+                }
+              ],
+              "ssid": "ss-5"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-1009",
+      "entry-id": "doc-1009_11_0",
+      "segment-text": "He said he would not consider returning to the party without his supporters, former Labour party members, being given an amnesty.",
+      "segment-type": "sentence",
+      "sent-id": "11"
+    },
+    "doc-105_16_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-5",
+              "eventid": "event1",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-1"
+              ]
+            },
+            "event2": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-1",
+              "eventid": "event2",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-3"
+              ]
+            },
+            "event3": {
+              "agents": [],
+              "anchors": "ss-4",
+              "eventid": "event3",
+              "helpful-harmful": "harmful",
+              "material-verbal": "material",
+              "patients": [
+                "ss-3"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "hstring": "speak",
+                  "string": "speak"
+                }
+              ],
+              "ssid": "ss-1"
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "hstring": "I",
+                  "string": "I"
+                }
+              ],
+              "ssid": "ss-2"
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "no-head": true,
+                  "string": "one of the 700 arrested"
+                }
+              ],
+              "ssid": "ss-3"
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "hstring": "arrested",
+                  "string": "arrested"
+                }
+              ],
+              "ssid": "ss-4"
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "hstring": "tell",
+                  "string": "tell"
+                }
+              ],
+              "ssid": "ss-5"
+            }
+          }
+        }
+      },
+      "doc-id": "doc-105",
+      "entry-id": "doc-105_16_0",
+      "segment-text": "I tell him that I want to speak to one of the 700 arrested on Brooklyn Bridge on Sunday.",
+      "segment-type": "sentence",
+      "sent-id": "16"
+    }
+  },
+  "format-type": "bp-corpus",
+  "format-version": "v9"
+}

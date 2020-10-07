@@ -1,0 +1,23 @@
+exptName: ace_trigger_tune
+nlplingo_mode: train_trigger_from_file
+
+train_filelist: /nfs/raid88/u10/users/ychan/ace_experiments/filelist/apf_serif_p3npz/train.filelist
+dev_filelist: /nfs/raid88/u10/users/ychan/ace_experiments/filelist/apf_serif_p3npz/dev.filelist
+test_filelist: /nfs/raid88/u10/users/ychan/ace_experiments/filelist/apf_serif_p3npz/test.filelist
+
+TEXT_OPEN: /nfs/raid88/u10/users/ychan/repos/text-open/src/python
+NLPLINGO: /nfs/raid88/u10/users/ychan/repos/nlplingo
+PYTHON: /nfs/raid84/u12/ychan/anaconda2/envs/p3-gpu/bin/python
+
+domain_ontology: /nfs/raid88/u10/users/ychan/data/ace/role_mappings.ace.txt
+features: trigger_window_vector
+model_type: event-trigger_multilayer-embedded
+negative_trigger_words: /nfs/raid88/u10/users/ychan/ace_experiments/resources/negative_trigger_words
+vector_size: 3072
+
+add_serif_event_mentions: false
+add_serif_entity_mentions: false
+average_embeddings: true
+entitymention.fuzzy_token_backing: true
+anchor.fuzzy_token_backing: true
+

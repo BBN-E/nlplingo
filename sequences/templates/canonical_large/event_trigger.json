@@ -1,0 +1,51 @@
+{
+    "data": {
+        "train": {
+            "filelist": "/nfs/raid88/u10/users/ychan/ace_experiments/filelist/apf_serif_p3npz/train.filelist"
+        },
+        "dev": {
+            "filelist": "/nfs/raid88/u10/users/ychan/ace_experiments/filelist/apf_serif_p3npz/dev.filelist"
+        },
+        "test": {
+            "filelist": "/nfs/raid88/u10/users/ychan/ace_experiments/filelist/apf_serif_p3npz/test.filelist"
+        }
+    }, 
+    "extractors": [
+        {
+            "domain_ontology": "/nfs/raid88/u10/users/ychan/data/ace/role_mappings.ace.txt", 
+            "embeddings": {
+                "vector_size": 3072
+            },
+                "activation_function": "sigmoid",
+                "loss_function": "binary_crossentropy",
+            "hyper-parameters": {
+                "batch_size": 100, 
+                "hidden_layers": [
+                    128,128
+                ],
+                "dropout": 0.5, 
+                "entity_embedding_vector_length": 50, 
+                "epoch": 20, 
+                "decode_mode": false, 
+                "fine_tune_epoch": 0,
+                "neighbor_distance": 0,
+                "number_of_feature_maps": 200, 
+                "position_embedding_vector_length": 50, 
+                "positive_weight": 5,
+                "train_embeddings": false,
+                "max_sentence_length": 200,
+                "early_stopping": false
+            },
+            "model_file": "+output_dir+/event_trigger.hdf", 
+            "features": [
+                "unary_window_vector"
+            ], 
+            "model_type": "event-trigger_multilayer-embedded"
+        }
+    ],
+    "trigger.negative_words": "/nfs/raid88/u10/users/ychan/ace_experiments/resources/negative_trigger_words", 
+    "train.score_file": "+output_dir+/dev.score",
+    "save_model": true,
+    "test.score_file": "+output_dir+/test.score"
+}
+

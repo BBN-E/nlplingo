@@ -1,0 +1,21 @@
+{
+    "data": {
+        "train": {
+            "filelist": "+train_file_list+"
+        },
+        "dev": {
+            "filelist": "+dev_file_list+"
+        },
+        "test": {
+            "filelist": "+test_file_list+"
+        }
+    }, 
+    "extractors": [
+    ], 
+    "trigger.negative_words": "+negative_trigger_words+", 
+    "train.score_file": "+output_dir+/dev.score",
+    "save_model": true,
+    "test.score_file": "+output_dir+/test.score",
+    "add_serif_event_mentions": +add_serif_event_mentions+,
+    "add_serif_entity_mentions": +add_serif_entity_mentions+
+}

@@ -1,0 +1,326 @@
+{
+  "corpus-id": "abstract-0",
+  "entries": {
+    "doc-0_10_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [],
+              "anchors": "ss-2",
+              "eventid": "event1",
+              "helpful-harmful": "harmful",
+              "material-verbal": "material",
+              "patients": [
+                "ss-1"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "string": "Timothy Weber"
+                }
+              ]
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "string": "died"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "doc-id": "doc-0",
+      "entry-id": "doc-0_10_0",
+      "segment-text": "The boy, a freshman named Timothy Weber, died a few hours later.",
+      "segment-type": "sentence",
+      "sent-id": "10"
+    },
+    "doc-0_27_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [],
+              "anchors": "ss-2",
+              "eventid": "event1",
+              "helpful-harmful": "neutral",
+              "material-verbal": "material",
+              "patients": [
+                "ss-1"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "string": "The bus"
+                }
+              ]
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "string": "searched"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "doc-id": "doc-0",
+      "entry-id": "doc-0_27_0",
+      "segment-text": "The bus was also thoroughly searched.",
+      "segment-type": "sentence",
+      "sent-id": "27"
+    },
+    "doc-10_17_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-11"
+              ],
+              "anchors": "ss-13",
+              "eventid": "event1",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-12"
+              ]
+            },
+            "event2": {
+              "agents": [
+                "ss-4"
+              ],
+              "anchors": "ss-6",
+              "eventid": "event2",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-5"
+              ]
+            },
+            "event3": {
+              "agents": [
+                "ss-8"
+              ],
+              "anchors": "ss-10",
+              "eventid": "event3",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-9"
+              ]
+            },
+            "event4": {
+              "agents": [],
+              "anchors": "ss-7",
+              "eventid": "event4",
+              "helpful-harmful": "neutral",
+              "material-verbal": "both",
+              "patients": []
+            },
+            "event5": {
+              "agents": [
+                "ss-1"
+              ],
+              "anchors": "ss-3",
+              "eventid": "event5",
+              "helpful-harmful": "helpful",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-2"
+              ]
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "string": "They"
+                }
+              ]
+            },
+            "ss-10": {
+              "spans": [
+                {
+                  "string": "discussed"
+                }
+              ]
+            },
+            "ss-11": {
+              "spans": [
+                {
+                  "string": "They"
+                }
+              ]
+            },
+            "ss-12": {
+              "spans": [
+                {
+                  "string": "hymns"
+                }
+              ]
+            },
+            "ss-13": {
+              "spans": [
+                {
+                  "string": "sang"
+                }
+              ]
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "string": "door locks"
+                },
+                {
+                  "string": "food supplies"
+                },
+                {
+                  "string": "other logistics"
+                },
+                {
+                  "string": "blankets"
+                }
+              ]
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "string": "focusing"
+                }
+              ]
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "string": "They"
+                }
+              ]
+            },
+            "ss-5": {
+              "spans": [
+                {
+                  "string": "Hail Marys"
+                }
+              ]
+            },
+            "ss-6": {
+              "spans": [
+                {
+                  "string": "recited"
+                }
+              ]
+            },
+            "ss-7": {
+              "spans": [
+                {
+                  "string": "occupation"
+                }
+              ]
+            },
+            "ss-8": {
+              "spans": [
+                {
+                  "string": "They"
+                }
+              ]
+            },
+            "ss-9": {
+              "spans": [
+                {
+                  "string": "occupation"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "doc-id": "doc-10",
+      "entry-id": "doc-10_17_0",
+      "segment-text": "They sang hymns in Spanish, recited Hail Marys and discussed the tactics of a protracted occupation, focusing on door locks, food supplies, blankets and other logistics.",
+      "segment-type": "sentence",
+      "sent-id": "17"
+    },
+    "doc-10_5_0": {
+      "annotation-sets": {
+        "abstract-events": {
+          "events": {
+            "event1": {
+              "agents": [
+                "ss-2"
+              ],
+              "anchors": "ss-4",
+              "eventid": "event1",
+              "helpful-harmful": "neutral",
+              "material-verbal": "verbal",
+              "patients": [
+                "ss-3"
+              ]
+            },
+            "event2": {
+              "agents": [],
+              "anchors": "ss-1",
+              "eventid": "event2",
+              "helpful-harmful": "neutral",
+              "material-verbal": "both",
+              "patients": []
+            }
+          },
+          "span-sets": {
+            "ss-1": {
+              "spans": [
+                {
+                  "string": "protest"
+                }
+              ]
+            },
+            "ss-2": {
+              "spans": [
+                {
+                  "string": "A spokesman"
+                }
+              ]
+            },
+            "ss-3": {
+              "spans": [
+                {
+                  "string": "protest"
+                }
+              ]
+            },
+            "ss-4": {
+              "spans": [
+                {
+                  "string": "said"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "doc-id": "doc-10",
+      "entry-id": "doc-10_5_0",
+      "segment-text": "A spokesman for the archdiocese said he had no particulars on the protest.",
+      "segment-type": "sentence",
+      "sent-id": "5"
+    }
+  },
+  "format-type": "bp-corpus",
+  "format-version": "v8f",
+  "provenance": {
+    "annotation-procedure": "multiple+multiple",
+    "annotation-role": "reference+reference",
+    "annotator-class": "multiple+multiple",
+    "annotator-id": "mturk,mitre+mturk,mitre",
+    "corpus-creation-date": "2019-10-12_14-36+2019-10-08_17-08+2019-10-08_17-08"
+  }
+}

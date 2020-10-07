@@ -1,0 +1,22 @@
+exptName: bp_argument_tune_gcn_bert_p100_3
+nlplingo_mode: train_argument
+
+train_filelist: /nfs/raid88/u10/users/jcai/bp_file_lists/new_dep/serif_dep_train.list
+dev_filelist: /nfs/raid88/u10/users/jcai/bp_file_lists/new_dep/serif_dep_analysis.list
+test_filelist: /nfs/raid88/u10/users/jcai/bp_file_lists/new_dep/serif_dep_devtest.list
+
+TEXT_OPEN: /nfs/raid88/u10/users/jcai/code/text-open/src/python
+NLPLINGO: /nfs/raid88/u10/users/jcai/nlplingo-master/nlplingo
+PYTHON: /nfs/raid87/u11/users/hqiu/miniconda_prod/envs/nlplingo-gpu/bin/python
+GCN_PATH: /nfs/raid88/u10/users/jcai/clean/gcn-over-pruned-trees
+
+domain_ontology: /nfs/raid88/u10/users/ychan/nlplingo_models/better/bp_coarse_argument/ontology.txt
+features: "sentence_word_embedding_vector_variable", "trigger_word_position_variable", "argument_word_position_variable", "head_array", "dep_rels"
+model_type: event-argument_gnn
+negative_trigger_words: /nfs/raid88/u10/users/ychan/nlplingo_models/better/bp_coarse_trigger/negative_trigger_words
+vector_size: 3072 
+
+add_serif_event_mentions: true 
+add_serif_entity_mentions: false 
+add_serif_dep_graph: true
+add_serif_prop_adj: false 

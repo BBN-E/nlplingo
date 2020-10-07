@@ -1,0 +1,25 @@
+
+### ACE
+
+tune ACE event trigger:
+perl runjob_scripts/tune_params.pl params/ace/ace.trigger.tune.params -sge
+
+tune ACE event argument:
+perl runjob_scripts/tune_params.pl params/ace/ace.argument.tune.params -sge
+
+
+### BP
+
+tune trigger d1:
+perl runjob_scripts/tune_params.pl params/bp/tune.trigger.d1.params -sge
+
+tune trigger d2:
+perl runjob_scripts/tune_params.pl params/bp/tune.trigger.d2.params -sge
+
+tune trigger d1d2:
+perl runjob_scripts/tune_params.pl params/bp/tune.trigger.d1d2.params -sge
+
+tune argument:
+perl runjob_scripts/tune_params.pl params/bp/tune.argument.params -sge
+
+

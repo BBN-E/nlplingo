@@ -1,0 +1,58 @@
+{
+    "data": {
+        "train": {
+            "filelist": "/nfs/raid88/u10/users/jcai/code/learnit_eer_train/expts/sample_learnit_eer_8_17_20_entity_1/split_lists/split/train.list"
+        },
+        "dev": {
+            "filelist": "/nfs/raid88/u10/users/jcai/code/learnit_eer_train/expts/sample_learnit_eer_8_17_20_entity_1/split_lists/split/dev.list"
+        },
+        "test": {
+            "filelist": "/nfs/raid88/u10/users/jcai/code/learnit_eer_train/expts/sample_learnit_eer_8_17_20_entity_1/split_lists/split/test.list"
+        }
+    },
+    "extractors": [
+        {
+            "activation_function": "NONE",
+            "loss_function": "NONE",
+            "domain_ontology": "/nfs/raid88/u10/users/jcai/code/learnit_eer_train/expts/sample_learnit_eer_8_17_20_entity_1/create_ontology/create_ontology/ontology.txt",
+            "hyper-parameters": {
+                "batch_size": 64,
+                "dropout": 0.5,
+                "epoch": 1,
+                "positive_weight": 5,
+                "max_sentence_length": 128,
+                "decode_mode": false,
+                "early_stopping": false,
+                "encoder": "bert_mention",
+                "load": false,
+                "mention_pool": true,
+                "save_model_path": "+output_dir+",
+                "opennre_dataset": "ldc",
+                "opennre_rootpath": "/nfs/raid88/u10/users/jcai/nlplingo_trained_models/opennre-data",
+                "patience": 2
+            },
+            "embeddings": {
+                "vector_size": 768
+            },
+            "model_file": "",
+            "features": [],
+            "model_type": "entity-entity-relation_bert-mention",
+            "optimizer": {
+                "name": "adamw",
+                "lr": 2e-05,
+                "weight_decay": 1e-05,
+                "warmup_step": 300
+            },
+            "engine": "pytorch",
+            "seed": 1234,
+            "cpu": false
+        }
+    ],
+    "trigger.negative_words": "/nfs/raid88/u10/users/bmin/temp/nlplingo_expts/to_zip/Repo_misc/nlplingo/bp_coarse/negative_trigger_words",
+    "train.score_file": "+output_dir+/dev.score",
+    "save_model": true,
+    "test.score_file": "+output_dir+/test.score",
+    "add_serif_event_mentions": true,
+    "add_serif_event_event_relation_mentions": true,
+    "add_serif_entity_entity_relation_mentions": true
+}

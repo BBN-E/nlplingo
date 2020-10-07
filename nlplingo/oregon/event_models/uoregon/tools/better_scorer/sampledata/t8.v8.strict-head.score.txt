@@ -1,0 +1,1219 @@
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-0_12_0     ref entry: doc-0_12_0
+text-signal: <<On the afternoon of Oct. 7, 1974, a mob of 200 enraged whites, many of them students, closed in on a bus filled with black students that was trying to pull away from the local high school.>>
+<event ref:  mv=material hh=harmful id=event1
+       sys:  mv=material hh=harmful id=event1.4>
+   anchors:  {ref=<['closed in']> sys=<['closed in']>}
+   agents:   [ {ref=#ss-4<['a mob']> sys=#ss-4.4<['a mob']>} ]
+   patients: [ {ref=#ss-2<['a bus']> sys=#ss-2.4<['a bus']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=material hh=neutral id=event2
+       sys:  mv=material hh=neutral id=event2.4>
+   anchors:  {ref=<['pull away']> sys=<['pull away']>}
+   agents:   [ {ref=#ss-2<['a bus']> sys=#ss-2.4<['a bus']>} ]
+   patients: [ {ref=#ss-2<['a bus']> sys=#ss-2.4<['a bus']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            2
+ event type weighted hit value:   2.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            4
+ argmt mtch weighted hit value:   4.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  1.0
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-0_28_0     ref entry: doc-0_28_0
+text-signal: <<No weapon was found, and there was no evidence to indicate that the shot had come from the bus. The bus driver insisted it had not come from the bus, but from someone firing at the bus.>>
+<event ref:  mv=material hh=neutral id=event1
+       sys:  mv=material hh=neutral id=event1.4>
+   anchors:  {ref=<['found']> sys=<['found']>}
+   agents:   [ ]
+   patients: [ {ref=#ss-11<['weapon']> sys=<None>}},
+           [ {{ref=<None> sys=#ss-11.4<['no weapon']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=1 falm=1 pcnt=0 mtch=0.0 COMB=1.0
+
+<event ref:  mv=verbal hh=neutral id=event2
+       sys:  mv=verbal hh=neutral id=event2.4>
+   anchors:  {ref=<['indicate']> sys=<['indicate']>}
+   agents:   [ {ref=#ss-8<['no evidence']> sys=#ss-8.4<['evidence']>} ]
+   patients: [ {ref=#ss-9<['shot']> sys=#ss-9.4<['shot']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=material hh=harmful id=event3
+       sys:  mv=material hh=harmful id=event3.4>
+   anchors:  {ref=<['shot']> sys=<['shot']>}
+   agents:   [ ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=0 mtch=0.0 COMB=1.0
+
+<event ref:  mv=verbal hh=neutral id=event4
+       sys:  mv=verbal hh=neutral id=event4.4>
+   anchors:  {ref=<['insisted']> sys=<['insisted']>}
+   agents:   [ {ref=#ss-2<['The bus driver']> sys=#ss-2.4<['he-bus driver']>} ]
+   patients: [ {ref=#ss-3<['shot']> sys=#ss-3.4<['shot']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=material hh=harmful id=event5
+       sys:  mv=material hh=harmful id=event5.4>
+   anchors:  {ref=<['firing']> sys=<['firing']>}
+   agents:   [ {ref=#ss-5<['someone']> sys=#ss-5.4<['someone']>} ]
+   patients: [ {ref=#ss-6<['the bus']> sys=#ss-6.4<['the bus']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            5
+ event type weighted hit value:   5.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           1
+ argmt mtch false alarm count:    1
+ argmt mtch hit count:            6
+ argmt mtch weighted hit value:   6.0
+ argmt mtch precision:            0.8571428571428571
+ argmt mtch recall:               0.8571428571428571
+ argmt mtch fmeasure:             0.8571428571428571
+
+ combined score:                  0.8571428571428571
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-0_47_0     ref entry: doc-0_47_0
+text-signal: <<Never mind that the main witness, a former girlfriend of Mr. Tyler's, was a troubled youngster who had been under the care of a psychiatrist and had a history of reporting phony crimes to the police, including a false report of a kidnapping.>>
+<event ref:  mv=material hh=neutral id=event1
+       sys:  mv=material hh=neutral id=event1.4>
+   anchors:  {ref=<['witness']> sys=<['witness']>}
+   agents:   [ {ref=#ss-2<['the main witness']> sys=#ss-2.4<['% main witness']>} ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=1 mtch=1.0 COMB=1.0
+
+<event ref:  mv=verbal hh=neutral id=event2
+       sys:  mv=verbal hh=neutral id=event2.4>
+   anchors:  {ref=<['reporting']> sys=<['reporting']>}
+   agents:   [ {ref=#ss-2<['the main witness']> sys=#ss-2.4<['% main witness']>} ]
+   patients: [ {ref=#ss-5<['crimes']> sys=#ss-5.4<['crimes']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=material hh=harmful id=event3
+       sys:  mv=material hh=harmful id=event3.4>
+   anchors:  {ref=<['crimes']> sys=<['crimes']>}
+   agents:   [ ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=0 mtch=0.0 COMB=1.0
+
+<event ref:  mv=verbal hh=neutral id=event4
+       sys:  mv=verbal hh=neutral id=event4.4>
+   anchors:  {ref=<['report']> sys=<['report']>}
+   agents:   [ {ref=#ss-2<['the main witness']> sys=#ss-2.4<['% main witness']>} ]
+   patients: [ {ref=#ss-3<['kidnapping']> sys=#ss-3.4<['kidnapping']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=material hh=harmful id=event5
+       sys:  mv=material hh=harmful id=event5.4>
+   anchors:  {ref=<['kidnapping']> sys=<['kidnapping']>}
+   agents:   [ ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=0 mtch=0.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            5
+ event type weighted hit value:   5.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            5
+ argmt mtch weighted hit value:   5.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  1.0
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-0_4_0     ref entry: doc-0_4_0
+text-signal: <<On the afternoon of Oct. 7, 1974, a mob of 200 enraged whites, many of them students, closed in on a bus filled with black students that was trying to pull away from the local high school.>>
+<event ref:  mv=verbal hh=harmful id=event1
+       sys:  mv=verbal hh=harmful id=event1.4>
+   anchors:  {ref=<['enraged']> sys=<['enraged']>}
+   agents:   [ ]
+   patients: [ {ref=#ss-6<['whites']> sys=#ss-6.4<['whites']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=1 mtch=1.0 COMB=1.0
+
+<event ref:  mv=material hh=harmful id=event2
+       sys:  mv=material hh=harmful id=event2.4>
+   anchors:  {ref=<['closed in']> sys=<['closed in']>}
+   agents:   [ {ref=#ss-2<['a mob']> sys=#ss-2.4<['a mob']>} ]
+   patients: [ {ref=#ss-3<['a bus']> sys=#ss-3.4<['a bus']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=material hh=harmful id=event3
+       sys:  mv=material hh=harmful id=event3.4>
+   anchors:  {ref=<['pull away']> sys=<['pull away']>}
+   agents:   [ {ref=#ss-3<['a bus']> sys=#ss-3.4<['a bus']>} ]
+   patients: [ {ref=#ss-3<['a bus']> sys=#ss-3.4<['a bus']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            3
+ event type weighted hit value:   3.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            5
+ argmt mtch weighted hit value:   5.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  1.0
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-0_6_0     ref entry: doc-0_6_0
+text-signal: <<They screamed racial epithets and bombarded the bus with rocks and bottles.>>
+<event ref:  mv=verbal hh=harmful id=event1
+       sys:  mv=verbal hh=harmful id=event1.4>
+   anchors:  {ref=<['screamed']> sys=<['screamed']>}
+   agents:   [ {ref=#ss-2<['They']> sys=#ss-2.4<['They']>} ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=1 mtch=1.0 COMB=1.0
+
+<event ref:  mv=material hh=harmful id=event2
+       sys:  mv=material hh=harmful id=event2.4>
+   anchors:  {ref=<['bombarded']> sys=<['bombarded']>}
+   agents:   [ {ref=#ss-2<['They']> sys=#ss-2.4<['They']>} ]
+   patients: [ {ref=#ss-3<['the bus']> sys=#ss-3.4<['the bus']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            2
+ event type weighted hit value:   2.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            3
+ argmt mtch weighted hit value:   3.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  1.0
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1000_1_0     ref entry: doc-1000_1_0
+text-signal: <<Dancing to reggae music and hugging her supporters, Cindy Sheehan led an anti-Iraq war rally Saturday at a one-acre campsite adjoining the ranch where President Bush is spending his holiday weekend.>>
+<event ref:  mv=material hh=neutral id=event1
+       sys:  mv=material hh=neutral id=event1.4>
+   anchors:  {ref=<['Dancing']> sys=<['Dancing']>}
+   agents:   [ {ref=#ss-2<['Cindy Sheehan']> sys=#ss-2.4<['Cindy Sheehan']>} ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=1 mtch=1.0 COMB=1.0
+
+<event ref:  mv=material hh=helpful id=event2
+       sys:  mv=material hh=helpful id=event2.4>
+   anchors:  {ref=<['hugging']> sys=<['hugging']>}
+   agents:   [ {ref=#ss-2<['Cindy Sheehan']> sys=#ss-2.4<['Cindy Sheehan']>} ]
+   patients: [ {ref=#ss-4<['her supporters']> sys=#ss-4.4<['her supporters']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=both hh=harmful id=event3
+       sys:  mv=both hh=harmful id=event3.4>
+   anchors:  {ref=<['rally']> sys=<['rally']>}
+   agents:   [ {ref=#ss-2<['Cindy Sheehan']> sys=<None>}},
+             [ {{ref=<None> sys=#ss-4.4<['her supporters']>} ,
+             [ {ref=#ss-4<['her supporters']> sys=#ss-4.4<['her supporters']>} ,
+             [ {{ref=<None> sys=#ss-5.4<['rally']>} ]
+   patients: [ {ref=#ss-6<['anti-Iraq war']> sys=#ss-6.4<['an anti-Iraq war rally']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=1 falm=2 pcnt=2 mtch=2.0 COMB=0.5714285714285715
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            3
+ event type weighted hit value:   3.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           1
+ argmt mtch false alarm count:    2
+ argmt mtch hit count:            5
+ argmt mtch weighted hit value:   5.0
+ argmt mtch precision:            0.7142857142857143
+ argmt mtch recall:               0.8333333333333334
+ argmt mtch fmeasure:             0.7692307692307692
+
+ combined score:                  0.7692307692307692
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1000_24_0     ref entry: doc-1000_24_0
+text-signal: <<That group has coalesced around Gary Qualls, from nearby Temple, Tex., whose Marine son was killed in Fallujah last year.>>
+<event ref:  mv=verbal hh=helpful id=event1
+       sys:  mv=verbal hh=helpful id=event1.4>
+   anchors:  {ref=<['coalesced']> sys=<['coalesced']>}
+   agents:   [ {ref=#ss-2<['That group']> sys=#ss-2.4<['That group']>} ]
+   patients: [ {ref=#ss-3<['Gary Qualls']> sys=#ss-3.4<['Gary Qualls']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=material hh=harmful id=event2
+       sys:  mv=material hh=harmful id=event2.4>
+   anchors:  {ref=<['killed']> sys=<['killed']>}
+   agents:   [ ]
+   patients: [ {ref=#ss-5<['Marine son']> sys=#ss-5.4<['Marine son']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=1 mtch=1.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            2
+ event type weighted hit value:   2.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            3
+ argmt mtch weighted hit value:   3.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  1.0
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1000_3_0     ref entry: doc-1000_3_0
+text-signal: <<Unlike then, when hundreds came from all over the country for major events at the two campsites named after Sheehan's son, who was killed in Iraq, Sheehan found herself addressing a crowd of only about 100 Saturday afternoon.>>
+<event ref:  mv=material hh=neutral id=event1
+       sys:  mv=material hh=neutral id=event1.4>
+   anchors:  {ref=<['came']> sys=<['came']>}
+   agents:   [ {ref=#ss-2<['hundreds']> sys=#ss-2.4<['hundreds']>} ]
+   patients: [ {ref=#ss-2<['hundreds']> sys=#ss-2.4<['hundreds']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=material hh=neutral id=event2
+       sys:  mv=material hh=neutral id=event2.4>
+   anchors:  {ref=<['events']> sys=<['events']>}
+   agents:   [ ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=0 mtch=0.0 COMB=1.0
+
+<event ref:  mv=material hh=harmful id=event3
+       sys:  mv=material hh=harmful id=event3.4>
+   anchors:  {ref=<['killed']> sys=<['killed']>}
+   agents:   [ ]
+   patients: [ {ref=#ss-5<["Sheehan's son"]> sys=#ss-5.4<["Sheehan's son"]>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=1 mtch=1.0 COMB=1.0
+
+<event ref:  mv=verbal hh=neutral id=event4
+       sys:  mv=verbal hh=neutral id=event4.4>
+   anchors:  {ref=<['addressing']> sys=<['addressing']>}
+   agents:   [ {ref=#ss-7<['Sheehan']> sys=#ss-7.4<['Sheehan']>} ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=1 mtch=1.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            4
+ event type weighted hit value:   4.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            4
+ argmt mtch weighted hit value:   4.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  1.0
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1000_5_0     ref entry: doc-1000_5_0
+text-signal: <<In the morning Sheehan signed copies of her new book, being published this week, for an even smaller crowd.>>
+<event ref:  mv=verbal hh=neutral id=event1
+       sys:  mv=verbal hh=neutral id=event1.4>
+   anchors:  {ref=<['signed']> sys=<['signed']>}
+   agents:   [ {ref=#ss-2<['Sheehan']> sys=#ss-2.4<['Sheehan']>} ]
+   patients: [ {ref=#ss-3<['copies of her new book']> sys=#ss-3.4<['copies of her new book']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=both hh=helpful id=event2
+       sys:  mv=both hh=helpful id=event2.4>
+   anchors:  {ref=<['published']> sys=<['published']>}
+   agents:   [ ]
+   patients: [ {ref=#ss-3<['copies of her new book']> sys=#ss-3.4<['copies of her new book']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=1 mtch=1.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            2
+ event type weighted hit value:   2.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            3
+ argmt mtch weighted hit value:   3.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  1.0
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1001_13_0     ref entry: doc-1001_13_0
+text-signal: <<A wildcat strike by Amtrak employes in New Haven, Conn., caused minimal delays to trains serving the Washington area yesterday, said Amtrak spokesman R. Clifford Black.>>
+<event ref:  mv=both hh=harmful id=event1
+       sys:  mv=both hh=harmful id=event1.4>
+   anchors:  {ref=<['strike']> sys=<['strike']>}
+   agents:   [ {ref=#ss-2<['Amtrak employes']> sys=#ss-2.4<['Amtrak employes']>} ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=1 mtch=1.0 COMB=1.0
+
+<event ref:  mv=material hh=harmful id=event3
+       sys:  mv=material hh=harmful id=event3.4>
+   anchors:  {ref=<['delays']> sys=<['delays']>}
+   agents:   [ {ref=#ss-1<['strike']> sys=#ss-1.4<['strike']>} ]
+   patients: [ {ref=#ss-4<['trains']> sys=#ss-4.4<['trains']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=verbal hh=neutral id=event4
+       sys:  mv=verbal hh=neutral id=event4.4>
+   anchors:  {ref=<['said']> sys=<['said']>}
+   agents:   [ {ref=#ss-6<['Amtrak spokesman R. Clifford Black']> sys=#ss-6.4<['Amtrak spokesman R. Clifford Black']>} ]
+   patients: [ {ref=#ss-3<['delays']> sys=#ss-3.4<['delays']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            3
+ event type weighted hit value:   3.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            5
+ argmt mtch weighted hit value:   5.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  1.0
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1002_11_0     ref entry: doc-1002_11_0
+text-signal: <<Mahatma's great-grandson Tushar and several hundred fellow marchers will follow the same route and take a similar length of time to walk it.>>
+<event ref:  mv=material hh=neutral id=event1
+       sys:  mv=material hh=neutral id=event1.4>
+   anchors:  {ref=<['marchers']> sys=<['marchers']>}
+   agents:   [ {ref=#ss-2<['several hundred fellow marchers']> sys=#ss-2.4<['several hundred fellow marchers']>} ,
+             [ {ref=#ss-3<["Mahatma's great-grandson Tushar"]> sys=#ss-3.4<["Mahatma's great-grandson Tushar"]>} ]
+   patients: [ {ref=#ss-2<['several hundred fellow marchers']> sys=#ss-2.4<['several hundred fellow marchers']>} ,
+           [ {ref=#ss-3<["Mahatma's great-grandson Tushar"]> sys=#ss-3.4<["Mahatma's great-grandson Tushar"]>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=4 mtch=4.0 COMB=1.0
+
+<event ref:  mv=material hh=neutral id=event2
+       sys:  mv=material hh=neutral id=event2.4>
+   anchors:  {ref=<['walk']> sys=<['walk']>}
+   agents:   [ {ref=#ss-2<['several hundred fellow marchers']> sys=#ss-2.4<['several hundred fellow marchers']>} ,
+             [ {ref=#ss-3<["Mahatma's great-grandson Tushar"]> sys=#ss-3.4<["Mahatma's great-grandson Tushar"]>} ]
+   patients: [ {ref=#ss-2<['several hundred fellow marchers']> sys=#ss-2.4<['several hundred fellow marchers']>} ,
+           [ {ref=#ss-3<["Mahatma's great-grandson Tushar"]> sys=#ss-3.4<["Mahatma's great-grandson Tushar"]>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=4 mtch=4.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            2
+ event type weighted hit value:   2.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            8
+ argmt mtch weighted hit value:   8.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  1.0
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1002_15_0     ref entry: doc-1002_15_0
+text-signal: <<Saturday's march was attended by nearly half of the Indian cabinet, many of whom walked for a few kilometres before returning to their hotels, our correspondent observed.>>
+<event ref:  mv=both hh=neutral id=event1
+       sys:  mv=both hh=neutral id=event1.4>
+   anchors:  {ref=<['march']> sys=<['march']>}
+   agents:   [ ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=0 mtch=0.0 COMB=1.0
+
+<event ref:  mv=material hh=neutral id=event2
+       sys:  mv=material hh=neutral id=event2.4>
+   anchors:  {ref=<['attended']> sys=<['attended']>}
+   agents:   [ {ref=#ss-3<['nearly half of the Indian cabinet']> sys=#ss-3.4<['nearly half of the Indian cabinet']>} ]
+   patients: [ {ref=#ss-1<['march']> sys=#ss-1.4<['march']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=material hh=neutral id=event3
+       sys:  mv=material hh=neutral id=event3.4>
+   anchors:  {ref=<['walked']> sys=<['walked']>}
+   agents:   [ {ref=#ss-5<['many']> sys=#ss-5.4<['many']>} ]
+   patients: [ {ref=#ss-5<['many']> sys=#ss-5.4<['many']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=material hh=neutral id=event4
+       sys:  mv=material hh=neutral id=event4.4>
+   anchors:  {ref=<['returning']> sys=<['returning']>}
+   agents:   [ {ref=#ss-5<['many']> sys=#ss-5.4<['many']>} ]
+   patients: [ {ref=#ss-5<['many']> sys=#ss-5.4<['many']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=verbal hh=neutral id=event5
+       sys:  mv=verbal hh=neutral id=event5.4>
+   anchors:  {ref=<['observed']> sys=<['observed']>}
+   agents:   [ {ref=#ss-8<['our correspondent']> sys=#ss-8.4<['our correspondent']>} ]
+   patients: [ {ref=#ss-4<['walked']> sys=#ss-4.4<['walked']>} ,
+           [ {ref=#ss-6<['returning']> sys=#ss-6.4<['returning']>} ,
+           [ {ref=#ss-2<['attended']> sys=#ss-2.4<['attended']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=4 mtch=4.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            5
+ event type weighted hit value:   5.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            10
+ argmt mtch weighted hit value:   10.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  1.0
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1002_18_0     ref entry: doc-1002_18_0
+text-signal: <<They came... because they identified with this battle and I think that is the spirit," he told the BBC.>>
+<event ref:  mv=material hh=neutral id=event1
+       sys:  mv=material hh=neutral id=event1.4>
+   anchors:  {ref=<['came']> sys=<['came']>}
+   agents:   [ {ref=#ss-2<['They']> sys=#ss-2.4<['They']>} ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=1 mtch=1.0 COMB=1.0
+
+<event ref:  mv=verbal hh=neutral id=event2
+       sys:  mv=verbal hh=neutral id=event2.4>
+   anchors:  {ref=<['identified']> sys=<['identified']>}
+   agents:   [ {ref=#ss-2<['They']> sys=#ss-2.4<['They']>} ]
+   patients: [ {ref=#ss-4<['battle']> sys=#ss-4.4<['battle']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=material hh=harmful id=event3
+       sys:  mv=material hh=harmful id=event3.4>
+   anchors:  {ref=<['battle']> sys=<['battle']>}
+   agents:   [ ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=0 mtch=0.0 COMB=1.0
+
+<event ref:  mv=verbal hh=neutral id=event4
+       sys:  mv=verbal hh=neutral id=event4.4>
+   anchors:  {ref=<['told']> sys=<['told']>}
+   agents:   [ {ref=#ss-6<['he']> sys=#ss-6.4<['he']>} ]
+   patients: [ {ref=#ss-3<['identified']> sys=#ss-3.4<['identified']>} ,
+           [ {ref=#ss-1<['came']> sys=#ss-1.4<['came']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=3 mtch=3.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            4
+ event type weighted hit value:   4.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            6
+ argmt mtch weighted hit value:   6.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  1.0
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1002_5_0     ref entry: doc-1002_5_0
+text-signal: <<It sparked India's civil disobedience movement as thousands joined him on the beach to pick up salt, the production of which was under government control.>>
+<event ref:  mv=verbal hh=helpful id=event1
+       sys:  mv=verbal hh=helpful id=event1.4>
+   anchors:  {ref=<['sparked']> sys=<['sparked']>}
+   agents:   [ {ref=#ss-2<['It']> sys=#ss-2.4<['It']>} ]
+   patients: [ {ref=#ss-3<['movement']> sys=#ss-3.4<['movement']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=both hh=neutral id=event2
+       sys:  mv=both hh=neutral id=event2.4>
+   anchors:  {ref=<['movement']> sys=<['movement']>}
+   agents:   [ {ref=#ss-4<["India's civil disobedience"]> sys=#ss-4.4<["India's civil disobedience"]>} ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=1 mtch=1.0 COMB=1.0
+
+<event ref:  mv=material hh=neutral id=event3
+       sys:  mv=material hh=neutral id=event3.4>
+   anchors:  {ref=<['pick up']> sys=<['pick up']>}
+   agents:   [ {ref=#ss-6<['him']> sys=#ss-6.4<['him']>} ,
+             [ {ref=#ss-7<['thousands']> sys=#ss-7.4<['thousands']>} ]
+   patients: [ {ref=#ss-8<['salt']> sys=#ss-8.4<['salt']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=3 mtch=3.0 COMB=1.0
+
+<event ref:  mv=material hh=helpful id=event4
+       sys:  mv=material hh=helpful id=event4.4>
+   anchors:  {ref=<['production']> sys=<['production']>}
+   agents:   [ {ref=#ss-10<['government']> sys=#ss-10.4<['government']>} ]
+   patients: [ {ref=#ss-8<['salt']> sys=#ss-8.4<['salt']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=material hh=neutral id=event5
+       sys:  mv=material hh=neutral id=event5.4>
+   anchors:  {ref=<['control']> sys=<['control']>}
+   agents:   [ {ref=#ss-10<['government']> sys=#ss-10.4<['government']>} ]
+   patients: [ {ref=#ss-9<['production']> sys=#ss-9.4<['production']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            5
+ event type weighted hit value:   5.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            10
+ argmt mtch weighted hit value:   10.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  1.0
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1003_20_0     ref entry: doc-1003_20_0
+text-signal: <<For a statement of the strategic ideas that guide Obama now, it's useful to re-read his Cairo speech of June 4, 2009.>>
+<event ref:  mv=verbal hh=helpful id=event2
+       sys:  mv=verbal hh=helpful id=event2.4>
+   anchors:  {ref=<['guide']> sys=<['guide']>}
+   agents:   [ {ref=#ss-2<['the strategic ideas']> sys=#ss-2.4<['the strategic ideas']>} ]
+   patients: [ {ref=#ss-3<['Obama']> sys=#ss-3.4<['Obama']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=verbal hh=neutral id=event3
+       sys:  mv=verbal hh=neutral id=event3.4>
+   anchors:  {ref=<['re-read']> sys=<['re-read']>}
+   agents:   [ ]
+   patients: [ {ref=#ss-5<['speech']> sys=#ss-5.4<['speech']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=1 mtch=1.0 COMB=1.0
+
+<event ref:  mv=verbal hh=neutral id=event4
+       sys:  mv=verbal hh=neutral id=event4.4>
+   anchors:  {ref=<['speech', 'statement']> sys=<['speech', 'statement']>}
+   agents:   [ {ref=#ss-3<['Obama']> sys=#ss-3.4<['Obama']>} ]
+   patients: [ {ref=#ss-1<['guide']> sys=#ss-1.4<['guide']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            3
+ event type weighted hit value:   3.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            5
+ argmt mtch weighted hit value:   5.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  1.0
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1003_31_34     ref entry: doc-1003_31_34
+text-signal: <<He can identify with the idealistic young rebels in the street, but he also needs to reassure the world that American power is a steadying force at a time of upheaval.>>
+<event ref:  mv=verbal hh=helpful id=event1
+       sys:  mv=verbal hh=helpful id=event1.4>
+   anchors:  {ref=<['reassure']> sys=<['reassure']>}
+   agents:   [ {ref=#ss-2<['he']> sys=#ss-2.4<['he']>} ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=1 mtch=1.0 COMB=1.0
+
+<event ref:  mv=verbal hh=harmful id=event2
+       sys:  mv=verbal hh=harmful id=event2.4>
+   anchors:  {ref=<['upheaval']> sys=<['upheaval']>}
+   agents:   [ ]
+   patients: [ {ref=#ss-4<['the world']> sys=#ss-4.4<['the world']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=1 mtch=1.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            2
+ event type weighted hit value:   2.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            2
+ argmt mtch weighted hit value:   2.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  1.0
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1004_2_0     ref entry: doc-1004_2_0
+text-signal: <<Shifting alliances in Israel's parliament, the Knesset, today appeared to offer Prime Minister Menachem Begin's ruling Likud coalition the prospect of sounder footing and the opposition less opportunity to topple the government without new elections.>>
+<event ref:  mv=verbal hh=neutral id=event1
+       sys:  mv=verbal hh=neutral id=event1.4>
+   anchors:  {ref=<['Shifting']> sys=<['Shifting']>}
+   agents:   [ ]
+   patients: [ {ref=#ss-2<['Shifting alliances']> sys=#ss-2.4<['Shifting alliances']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=1 mtch=1.0 COMB=1.0
+
+<event ref:  mv=verbal hh=helpful id=event2
+       sys:  mv=verbal hh=helpful id=event2.4>
+   anchors:  {ref=<['offer']> sys=<['offer']>}
+   agents:   [ {ref=#ss-2<['Shifting alliances']> sys=#ss-2.4<['Shifting alliances']>} ]
+   patients: [ {ref=#ss-4<['Likud']> sys=#ss-4.4<['Likud']>} ,
+           [ {ref=#ss-5<['the opposition']> sys=#ss-5.4<['the opposition']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=3 mtch=3.0 COMB=1.0
+
+<event ref:  mv=verbal hh=harmful id=event3
+       sys:  mv=verbal hh=harmful id=event3.4>
+   anchors:  {ref=<['topple']> sys=<['topple']>}
+   agents:   [ {ref=#ss-5<['the opposition']> sys=#ss-5.4<['the opposition']>} ]
+   patients: [ {ref=#ss-7<['the government']> sys=#ss-7.4<['the government']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=both hh=neutral id=event4
+       sys:  mv=both hh=neutral id=event4.4>
+   anchors:  {ref=<['elections']> sys=<['elections']>}
+   agents:   [ ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=0 mtch=0.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            4
+ event type weighted hit value:   4.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            6
+ argmt mtch weighted hit value:   6.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  1.0
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1004_7_0     ref entry: doc-1004_7_0
+text-signal: <<Knesset sources said Telem and Likud have ironed out a common policy on the economy and opposition to relinquishing any part of the occupied West Bank and Gaza Strip, and the only remaining obstacle to a partnership is the question of Cabinet representation.>>
+<event ref:  mv=verbal hh=neutral id=event1
+       sys:  mv=verbal hh=neutral id=event1.4>
+   anchors:  {ref=<['said']> sys=<['said']>}
+   agents:   [ {ref=#ss-2<['Knesset sources']> sys=#ss-2.4<['Knesset sources']>} ]
+   patients: [ {ref=#ss-3<['ironed out']> sys=#ss-3.4<['ironed out']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=verbal hh=helpful id=event2
+       sys:  mv=verbal hh=both id=event2.4>
+   anchors:  {ref=<['ironed out']> sys=<['ironed out']>}
+   agents:   [ {ref=#ss-4<['Telem']> sys=#ss-4.4<['Telem']>} ,
+             [ {ref=#ss-5<['Likud']> sys=#ss-5.4<['Likud']>} ]
+   patients: [ {ref=#ss-6<['a common policy']> sys=#ss-6.4<['a common policy']>} ,
+           [ {ref=#ss-7<['relinquishing']> sys=#ss-7.4<['relinquishing']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=0.5 ARG miss=0 falm=0 pcnt=4 mtch=4.0 COMB=0.5
+
+<event ref:  mv=material hh=neutral id=event3
+       sys:  mv=material hh=neutral id=event3.4>
+   anchors:  {ref=<['relinquishing']> sys=<['relinquishing']>}
+   agents:   [ {ref=#ss-5<['Likud']> sys=#ss-5.4<['Likud']>} ,
+             [ {ref=#ss-4<['Telem']> sys=#ss-4.4<['Telem']>} ]
+   patients: [ {ref=#ss-8<['any part of the occupied West Bank and Gaza Strip']> sys=#ss-8.4<['any part of the occupied West Bank and Gaza Strip']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=3 mtch=3.0 COMB=1.0
+
+<event ref:  mv=verbal hh=neutral id=event4
+       sys:  mv=verbal hh=neutral id=event4.4>
+   anchors:  {ref=<['question']> sys=<['question']>}
+   agents:   [ {ref=#ss-5<['Likud']> sys=#ss-5.4<['Likud']>} ,
+             [ {ref=#ss-4<['Telem']> sys=#ss-4.4<['Telem']>} ]
+   patients: [ {ref=#ss-10<['Cabinet representation']> sys=#ss-10.4<['Cabinet representation']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=3 mtch=3.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            4
+ event type weighted hit value:   3.5
+ event type precision:            0.875
+ event type recall:               0.875
+ event type fmeasure:             0.875
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            12
+ argmt mtch weighted hit value:   12.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  0.875
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1005_12_0     ref entry: doc-1005_12_0
+text-signal: <<Cheap food disgusts us, but many of the posh alternatives are just as likely to put you off your dinner>>
+<event ref:  mv=verbal hh=harmful id=event1
+       sys:  mv=verbal hh=harmful id=event1.4>
+   anchors:  {ref=<['disgusts']> sys=<['disgusts']>}
+   agents:   [ {ref=#ss-2<['Cheap food']> sys=#ss-2.4<['Cheap food']>} ]
+   patients: [ {ref=#ss-3<['us']> sys=#ss-3.4<['us']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=verbal hh=harmful id=event2
+       sys:  mv=verbal hh=harmful id=event2.4>
+   anchors:  {ref=<['put']> sys=<['put']>}
+   agents:   [ {ref=#ss-5<['many of the posh alternatives']> sys=#ss-5.4<['many of the posh alternatives']>} ]
+   patients: [ {ref=#ss-6<['you']> sys=#ss-6.4<['you']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            2
+ event type weighted hit value:   2.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            4
+ argmt mtch weighted hit value:   4.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  1.0
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1006_22_0     ref entry: doc-1006_22_0
+text-signal: <<"The same can be said about the executives who run the game - they should be role models as well.>>
+<event ref:  mv=verbal hh=neutral id=event1
+       sys:  mv=verbal hh=neutral id=event1.4>
+   anchors:  {ref=<['said']> sys=<['said']>}
+   agents:   [ ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=0 mtch=0.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            1
+ event type weighted hit value:   1.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            0
+ argmt mtch weighted hit value:   0.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  1.0
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1006_4_0     ref entry: doc-1006_4_0
+text-signal: <<But Strachan is keen to have a fully-fit squad ahead of the Group D clash as Scotland attempt to reach France.>>
+<event ref:  mv=material hh=harmful id=event1
+       sys:  mv=verbal hh=helpful id=event1.4>
+   anchors:  {ref=<['clash']> sys=<['clash']>}
+   agents:   [ {ref=#ss-2<['Group D']> sys=#ss-2.4<['Group D']>} ]
+   patients: [ {ref=#ss-2<['Group D']> sys=#ss-2.4<['Group D']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=0.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=0.0
+
+<event ref:  mv=material hh=neutral id=event2
+       sys:  mv=material hh=neutral id=event2.4>
+   anchors:  {ref=<['reach']> sys=<['reach']>}
+   agents:   [ {ref=#ss-4<['Scotland']> sys=#ss-4.4<['Scotland']>} ]
+   patients: [ {ref=#ss-5<['France']> sys=#ss-5.4<['France']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  <None>
+       sys:  mv=verbal hh=helpful id=event1.400>
+   anchors:  {{ref=<None> sys=<['clash']>}
+   agents:   [ {{ref=<None> sys=#ss-2.4<['Group D']>} ]
+   patients: [ {{ref=<None> sys=#ss-2.4<['Group D']>} ]
+   score:    EVT miss=0 falm=1 pcnt=0 mtch=0.0 ARG miss=0 falm=2 pcnt=0 mtch=0.0 COMB=0.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    1
+ event type hit count:            2
+ event type weighted hit value:   1.0
+ event type precision:            0.3333333333333333
+ event type recall:               0.5
+ event type fmeasure:             0.4
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    2
+ argmt mtch hit count:            4
+ argmt mtch weighted hit value:   4.0
+ argmt mtch precision:            0.6666666666666666
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             0.8
+
+ combined score:                  0.32000000000000006
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1007_31_0     ref entry: doc-1007_31_0
+text-signal: <<At the same time he brought the crisis to a head by threatening to escalate the strikes nationwide if the government resorted to force.>>
+<event ref:  mv=verbal hh=helpful id=event1
+       sys:  mv=verbal hh=helpful id=event1.4>
+   anchors:  {ref=<['brought', 'head']> sys=<['brought', 'head']>}
+   agents:   [ {ref=#ss-3<['he']> sys=#ss-3.4<['he']>} ]
+   patients: [ {ref=#ss-4<['the crisis']> sys=#ss-4.4<['the crisis']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=unk hh=harmful id=event2
+       sys:  mv=unk hh=harmful id=event2.4>
+   anchors:  {ref=<['crisis']> sys=<['crisis']>}
+   agents:   [ ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=0 mtch=0.0 COMB=1.0
+
+<event ref:  mv=verbal hh=harmful id=event3
+       sys:  mv=verbal hh=harmful id=event3.4>
+   anchors:  {ref=<['threatening']> sys=<['threatening']>}
+   agents:   [ {ref=#ss-3<['he']> sys=#ss-3.4<['he']>} ]
+   patients: [ {ref=#ss-6<['escalate']> sys=#ss-6.4<['escalate']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=material hh=helpful id=event4
+       sys:  mv=material hh=helpful id=event4.4>
+   anchors:  {ref=<['escalate']> sys=<['escalate']>}
+   agents:   [ {ref=#ss-3<['he']> sys=#ss-3.4<['he']>} ]
+   patients: [ {ref=#ss-7<['strikes']> sys=#ss-7.4<['strikes']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=both hh=harmful id=event5
+       sys:  mv=material hh=harmful id=event5.4>
+   anchors:  {ref=<['strikes']> sys=<['strikes']>}
+   agents:   [ ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=0.75 ARG miss=0 falm=0 pcnt=0 mtch=0.0 COMB=0.75
+
+<event ref:  mv=material hh=helpful id=event6
+       sys:  mv=material hh=helpful id=event6.4>
+   anchors:  {ref=<['resorted']> sys=<['resorted']>}
+   agents:   [ {ref=#ss-9<['the government']> sys=#ss-9.4<['the government']>} ]
+   patients: [ {ref=#ss-10<['force']> sys=#ss-10.4<['force']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=material hh=harmful id=event7
+       sys:  mv=material hh=harmful id=event7.4>
+   anchors:  {ref=<['force']> sys=<['force']>}
+   agents:   [ {ref=#ss-9<['the government']> sys=#ss-9.4<['the government']>} ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=1 mtch=1.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            7
+ event type weighted hit value:   6.75
+ event type precision:            0.9642857142857143
+ event type recall:               0.9642857142857143
+ event type fmeasure:             0.9642857142857143
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            9
+ argmt mtch weighted hit value:   9.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  0.9642857142857143
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1008_33_0     ref entry: doc-1008_33_0
+text-signal: <<Obama will try to "seize momentum" in the Middle East peace process at the meeting, White House officials said.>>
+<event ref:  mv=verbal hh=neutral id=event1
+       sys:  mv=verbal hh=neutral id=event1.4>
+   anchors:  {ref=<['seize']> sys=<['seize']>}
+   agents:   [ {ref=#ss-2<['Obama']> sys=#ss-2.4<['Obama']>} ]
+   patients: [ {ref=#ss-3<['the Middle East peace process']> sys=#ss-3.4<['the Middle East peace process']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=both hh=neutral id=event2
+       sys:  <None>
+   anchors:  {ref=<['meeting']> sys=<None>}}
+   agents:   [ ]
+   patients: [ ]
+   score:    EVT miss=1 falm=0 pcnt=0 mtch=0.0 ARG miss=0 falm=0 pcnt=0 mtch=0.0 COMB=0.0
+
+<event ref:  mv=verbal hh=neutral id=event3
+       sys:  mv=verbal hh=neutral id=event3.4>
+   anchors:  {ref=<['said']> sys=<['said']>}
+   agents:   [ {ref=#ss-6<['White House officials']> sys=#ss-6.4<['White House officials']>} ]
+   patients: [ {ref=#ss-1<['seize']> sys=#ss-1.4<['seize']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           1
+ event type false alarm count:    0
+ event type hit count:            2
+ event type weighted hit value:   2.0
+ event type precision:            1.0
+ event type recall:               0.6666666666666666
+ event type fmeasure:             0.8
+
+ argmt mtch miss count:           0
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            4
+ argmt mtch weighted hit value:   4.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               1.0
+ argmt mtch fmeasure:             1.0
+
+ combined score:                  0.8
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1008_8_0     ref entry: doc-1008_8_0
+text-signal: <<"Of course we regret the loss of life, but it was not the Israeli side that initiated the violence," the official said.>>
+<event ref:  mv=material hh=harmful id=event1
+       sys:  mv=material hh=harmful id=event1.4>
+   anchors:  {ref=<['loss of life']> sys=<['loss of life']>}
+   agents:   [ ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=0 mtch=0.0 COMB=1.0
+
+<event ref:  mv=material hh=helpful id=event2
+       sys:  mv=material hh=helpful id=event2.4>
+   anchors:  {ref=<['initiated']> sys=<['initiated']>}
+   agents:   [ {ref=#ss-3<['the Israeli side']> sys=#ss-3.4<['the Israeli side']>} ]
+   patients: [ {ref=#ss-4<['the violence']> sys=<None>}}]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=1 falm=0 pcnt=1 mtch=1.0 COMB=0.6666666666666666
+
+<event ref:  mv=material hh=harmful id=event3
+       sys:  mv=material hh=harmful id=event3.4>
+   anchors:  {ref=<['violence']> sys=<['violence']>}
+   agents:   [ ]
+   patients: [ ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=0 mtch=0.0 COMB=1.0
+
+<event ref:  mv=verbal hh=neutral id=event4
+       sys:  mv=verbal hh=neutral id=event4.4>
+   anchors:  {ref=<['said']> sys=<['said']>}
+   agents:   [ {ref=#ss-7<['the official']> sys=#ss-7.4<['the official']>} ]
+   patients: [ {ref=#ss-2<['initiated']> sys=#ss-2.4<['initiated']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            4
+ event type weighted hit value:   4.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           1
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            3
+ argmt mtch weighted hit value:   3.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               0.75
+ argmt mtch fmeasure:             0.8571428571428571
+
+ combined score:                  0.8571428571428571
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-1009_11_0     ref entry: doc-1009_11_0
+text-signal: <<He said he would not consider returning to the party without his supporters, former Labour party members, being given an amnesty.>>
+<event ref:  mv=verbal hh=neutral id=event1
+       sys:  mv=verbal hh=neutral id=event1.4>
+   anchors:  {ref=<['said']> sys=<['said']>}
+   agents:   [ {ref=#ss-2<['He']> sys=<None>}}]
+   patients: [ {ref=#ss-3<['returning']> sys=#ss-3.4<['returning']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=1 falm=0 pcnt=1 mtch=1.0 COMB=0.6666666666666666
+
+<event ref:  mv=material hh=neutral id=event2
+       sys:  mv=material hh=neutral id=event2.4>
+   anchors:  {ref=<['returning']> sys=<['returning']>}
+   agents:   [ {ref=#ss-2<['He']> sys=#ss-2.4<['He']>} ]
+   patients: [ {ref=#ss-2<['He']> sys=#ss-2.4<['He']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=both hh=helpful id=event3
+       sys:  mv=both hh=helpful id=event3.4>
+   anchors:  {ref=<['amnesty']> sys=<['amnesty']>}
+   agents:   [ ]
+   patients: [ {ref=#ss-5<['former Labour party members']> sys=#ss-5.4<['former Labour party members']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=1 mtch=1.0 COMB=1.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    0
+ event type hit count:            3
+ event type weighted hit value:   3.0
+ event type precision:            1.0
+ event type recall:               1.0
+ event type fmeasure:             1.0
+
+ argmt mtch miss count:           1
+ argmt mtch false alarm count:    0
+ argmt mtch hit count:            4
+ argmt mtch weighted hit value:   4.0
+ argmt mtch precision:            1.0
+ argmt mtch recall:               0.8
+ argmt mtch fmeasure:             0.888888888888889
+
+ combined score:                  0.888888888888889
+------------------------------------------------------------------------
+------------------ displaying score for an entry pair -----------------------
+ sys entry: doc-105_16_0     ref entry: doc-105_16_0
+text-signal: <<I tell him that I want to speak to one of the 700 arrested on Brooklyn Bridge on Sunday.>>
+<event ref:  mv=verbal hh=neutral id=event1
+       sys:  mv=verbal hh=neutral id=event1.4>
+   anchors:  {ref=<['tell']> sys=<['tell']>}
+   agents:   [ {ref=#ss-2<['I']> sys=#ss-2.4<['I']>} ]
+   patients: [ {ref=#ss-1<['speak']> sys=<None>}},
+           [ {{ref=<None> sys=#ss-1.4<['to speak to']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=1 falm=1 pcnt=1 mtch=1.0 COMB=0.5
+
+<event ref:  mv=verbal hh=neutral id=event2
+       sys:  mv=verbal hh=neutral id=event2.4>
+   anchors:  {ref=<['speak']> sys=<['to speak to']>}
+   agents:   [ {ref=#ss-2<['I']> sys=#ss-2.4<['I']>} ]
+   patients: [ {ref=#ss-3<['one of the 700 arrested']> sys=#ss-3.4<['one of the 700 arrested']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=1.0 ARG miss=0 falm=0 pcnt=2 mtch=2.0 COMB=1.0
+
+<event ref:  mv=material hh=harmful id=event3
+       sys:  mv=material hh=helpful id=event3.4>
+   anchors:  {ref=<['arrested']> sys=<['arrested']>}
+   agents:   [ ]
+   patients: [ {ref=#ss-3<['one of the 700 arrested']> sys=#ss-3.4<['one of the 700 arrested']>} ]
+   score:    EVT miss=0 falm=0 pcnt=1 mtch=0.5 ARG miss=0 falm=0 pcnt=1 mtch=1.0 COMB=0.5
+
+<event ref:  <None>
+       sys:  mv=material hh=neutral id=event40.4>
+   anchors:  {{ref=<None> sys=<['I']>}
+   agents:   [ {{ref=<None> sys=#ss-20.4<['Hello, World!']>} ]
+   patients: [ {{ref=<None> sys=#ss-3.4<['one of the 700 arrested']>} ]
+   score:    EVT miss=0 falm=1 pcnt=0 mtch=0.0 ARG miss=0 falm=2 pcnt=0 mtch=0.0 COMB=0.0
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ event type miss count:           0
+ event type false alarm count:    1
+ event type hit count:            3
+ event type weighted hit value:   2.5
+ event type precision:            0.625
+ event type recall:               0.8333333333333334
+ event type fmeasure:             0.7142857142857143
+
+ argmt mtch miss count:           1
+ argmt mtch false alarm count:    3
+ argmt mtch hit count:            4
+ argmt mtch weighted hit value:   4.0
+ argmt mtch precision:            0.5714285714285714
+ argmt mtch recall:               0.8
+ argmt mtch fmeasure:             0.6666666666666666
+
+ combined score:                  0.47619047619047616
+------------------------------------------------------------------------
+------------- displaying score for entry SETs -----------------------
+ sys file: t8.v8.sys.bp.json
+ ref file: t8.v0.ref.bp.json
+ event type miss count:           1
+ event type false alarm count:    2
+ event type hit count:            84
+ event type weighted hit value:   81.75
+ event type precision:            0.9505813953488372
+ event type recall:               0.961764705882353
+ event type fmeasure:             0.956140350877193
+
+ argmt mtch miss count:           5
+ argmt mtch false alarm count:    8
+ argmt mtch hit count:            134
+ argmt mtch weighted hit value:   134.0
+ argmt mtch precision:            0.9436619718309859
+ argmt mtch recall:               0.9640287769784173
+ argmt mtch fmeasure:             0.9537366548042705
+
+ combined score:                  0.9119060997689955

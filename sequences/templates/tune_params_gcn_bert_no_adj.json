@@ -1,0 +1,87 @@
+{
+    "data": {
+        "train": {
+            "filelist": "+train_file_list+"
+        },
+        "dev": {
+            "filelist": "+dev_file_list+"
+        },
+        "test": {
+            "filelist": "+test_file_list+"
+        }
+    }, 
+    "extractors": [
+        {
+            "embeddings": {
+                "vector_size": +vector_size+
+    	    },
+            "domain_ontology": "+domain_ontology+", 
+            "hyper-parameters": {
+                "batch_size": +batch_size+,
+                "hidden_layers": [
+                    768,768
+                ],
+                "dropout": 0.5,
+                "entity_embedding_vector_length": 50,
+                "epoch": +num_epochs+,
+                "fine_tune_epoch": 0,
+                "neighbor_distance": 3,
+                "number_of_feature_maps": 300,
+                "position_embedding_vector_length": 50,
+                "positive_weight": 5,
+                "train_embeddings": false,
+                "max_sentence_length": 200,
+                "ner_dim": 0,
+                "pos_dim": 30,
+                "dep_rel_dim": +dep_rel_dim+,
+                "hidden_dim": +hidden_dim+,
+                "num_graph_cnn_layers": +num_graph_cnn_layers+, 
+                "input_dropout": 0.5, 
+                "gcn_dropout": 0.5, 
+                "word_dropout": 0.04, 
+                "topn": 1e10, 
+                "lower": false, 
+                "prune_k": +prune_k+,
+                "conv_l2": 0,
+                "pooling": "max", 
+                "pooling_l2": 0.003, 
+                "mlp_layers": +mlp_layers+,
+                "no_adj": true,
+                "rnn": false,
+                "rnn_hidden": 200,
+                "rnn_layers": 1,
+                "rnn_dropout": 0.5,
+                "max_grad_norm": 5.0,
+                "log_step": 20,
+                "log": "logs.txt",
+                "save_epoch": 100,
+                "save_dir": "+output_dir+",
+                "exp_id": "0",
+                "info": "",
+                "load": false
+            }, 
+            "model_file" : "",
+            "int_type": "int32",
+            "features": [
+                +features+
+            ],
+            "model_type": "+model_type+",
+            "optimizer": {
+                "name": "+pytorch-optimizer+",
+                "lr": +learning_rate+,
+                "lr_decay": 0.9,
+                "decay_epoch": 5
+            },
+            "engine": "pytorch",
+            "seed": 0,
+            "cpu": false
+        }
+    ], 
+    "trigger.negative_words": "+negative_trigger_words+", 
+    "train.score_file": "+output_dir+/dev.score",
+    "save_model": true,
+    "test.score_file": "+output_dir+/test.score",
+    "add_serif_event_mentions": +add_serif_event_mentions+,
+    "add_serif_prop_adj": +add_serif_prop_adj+,
+    "add_serif_dep_graph": +add_serif_dep_graph+
+}

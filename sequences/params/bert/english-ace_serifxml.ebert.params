@@ -1,0 +1,29 @@
+
+################
+# User defined #
+################
+
+exptName: english-ace_serifxml.ebert
+inputfile.list: /nfs/raid88/u10/users/ychan/data/ace/bert/serifxml.filelist
+maximum_allowed_bert_tokens_per_sentence: 512
+bert_layers: -1,-2,-3,-4
+
+######################
+# Python and scripts #
+######################
+
+python.bin: /nfs/raid84/u12/ychan/anaconda2/envs/p3-gpu/bin/python
+python.path: /nfs/raid88/u10/users/ychan/repos/nlplingo:/nfs/raid88/u10/users/ychan/repos/text-open/src/python:/nfs/raid84/u12/ychan/repos/bert
+
+do_bert_tokenization.bin: /nfs/raid88/u10/users/ychan/repos/Hume/src/python/bert/do_bert_tokenization.py
+do_npz_embeddings.bin: /nfs/raid88/u10/users/ychan/repos/Hume/src/python/bert/do_npz_embeddings.py
+add_npz_suffix.bin: /nfs/raid88/u10/users/ychan/bert/scripts/add_npz_suffix.py
+
+
+###########################
+# Which BERT model to use #
+###########################
+
+bert.repo: /nfs/raid88/u10/users/ychan/repos/bert
+bert.model: /nfs/raid88/u10/users/ychan/repos/bert/model_data/uncased_L-12_H-768_A-12
+

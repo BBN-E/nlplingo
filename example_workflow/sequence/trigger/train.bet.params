@@ -1,0 +1,25 @@
+{
+    "bp_file": "/d4m/better/data/events/BETTER-Abstract-Events-English-Data/abstract-8d-inclusive.train.update2.bp.json",
+    "data": {
+        "train": {
+            "filelist": "/nfs/raid88/u10/users/ychan-ad/nlplingo_models/better/data/serif_files.train.list"
+        }
+    },
+    "extractors": [
+        {
+            "batch_size": 16,
+            "cache_dir": "/nfs/raid88/u10/users/ychan-ad/BETTER/transformers_ner/cache",
+            "domain_ontology": "/nfs/raid88/u10/users/ychan-ad/nlplingo_models/better/ontology.txt",
+            "engine": "transformers",
+            "epoch": 2,
+            "extractor_name": "xlm-roberta-base",
+            "keep_unannotated_sentences": true,
+            "lr": 5e-05,
+            "model_file": "/nfs/raid88/u10/users/ychan-ad/nlplingo_models/better/xlmr_base/trigger_small/e4b16lr5e-05tSPACE/output/xlm-roberta-base",
+            "model_type": "xlm-roberta",
+            "task": "event-trigger",
+            "tokenization_type": "SPACE"
+        }
+    ],
+    "output_dir": "/nfs/raid88/u10/users/ychan-ad/nlplingo_models/better/xlmr_base/trigger_small/e4b16lr5e-05tSPACE/output/xlm-roberta-base"
+}

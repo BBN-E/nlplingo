@@ -1,0 +1,61 @@
+{
+    "data": {
+        "train": {
+            "filelist": "+train_file_list+"
+        },
+        "dev": {
+            "filelist": "+dev_file_list+"
+        },
+        "test": {
+            "filelist": "+test_file_list+"
+        }
+    }, 
+    "extractors": [
+        {
+            "domain_ontology": "+domain_ontology+",
+            "hyper-parameters": {
+                "batch_size": 32, 
+                "dropout": 0.5, 
+                "epoch": +num_epochs+,
+                "position_embedding_vector_length": 5,
+                "fine-tune_epoch": 0,
+                "train_embeddings": false,
+                "positive_weight": 5,
+                "max_sentence_length": 128,
+                "early_stopping": false,
+                "use_position_padding": true ,
+                "load": false,
+                "save_model_path": "+output_dir+/",
+                "log_dir": "+output_dir+/logs/",
+                "is_embedding_vector": true 
+            },
+            "embeddings": {
+                "vector_size": +vector_size+
+    	    },
+            "model_file": "", 
+            "features": [
+                +features+
+            ], 
+            "load_from_disk": false,
+            "disk_base_path": "/nfs/raid88/u10/users/jcai/nlplingo_features",
+            "model_type": "+model_type+", 
+            "optimizer": {
+                "name": "sgd",
+                "lr": 0.1,
+                "weight_decay": 1e-5,
+                "warmup_step": 300
+            },
+            "engine": "pytorch",
+            "seed": 1234,
+            "cpu": false
+        }
+    ],
+    "trigger.negative_words": "+negative_trigger_words+", 
+    "train.score_file": "+output_dir+/dev.score",
+    "save_model": true,
+    "test.score_file": "+output_dir+/test.score",
+    "add_serif_event_mentions": +add_serif_event_mentions+,
+    "add_serif_entity_mentions": +add_serif_entity_mentions+,
+    "allow_anchor_as_event_argument": false,
+    "argument_generator.filter_using_entity_type": false
+}

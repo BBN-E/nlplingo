@@ -1,0 +1,7 @@
+job_name: ldc_bert_full_4_16_20
+dataset: ldc
+encoder: bert
+mode: train_evevr_from_file
+model_config: train_ldc_bert_family.json
+epoch: 5 
+job_cores: 2

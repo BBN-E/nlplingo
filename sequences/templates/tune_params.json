@@ -1,0 +1,56 @@
+{
+    "data": {
+        "train": {
+            "filelist": "+train_file_list+"
+        },
+        "dev": {
+            "filelist": "+dev_file_list+"
+        },
+        "test": {
+            "filelist": "+test_file_list+"
+        }
+    }, 
+    "extractors": [
+        {
+            "embeddings": {
+        	"vector_size": +vector_size+
+    	    },
+            "domain_ontology": "+domain_ontology+", 
+            "hyper-parameters": {
+                "batch_size": +batch_size+,
+                "hidden_layers": [
+                    +hidden_layers+
+                ],
+                "dropout": 0.5,
+                "entity_embedding_vector_length": 5,
+                "epoch": +num_epochs+,
+                "fine_tune_epoch": 0,
+                "neighbor_distance": +neighbor_distance+,
+                "number_of_feature_maps": 200,
+                "position_embedding_vector_length": 5,
+                "positive_weight": +positive_weight+,
+                "train_embeddings": false,
+                "max_sentence_length": 200
+            }, 
+            "int_type": "int32",
+            "model_file": "+output_dir+/model.hdf", 
+            "features": [
+                "+features+"
+            ],
+            "model_type": "+model_type+",
+            "optimizer": {
+                "name": "Adam",
+                "lr": +learning_rate+
+            }
+        }
+    ], 
+    "trigger.negative_words": "+negative_trigger_words+", 
+    "train.score_file": "+output_dir+/dev.score",
+    "save_model": true,
+    "test.score_file": "+output_dir+/test.score",
+    "add_serif_event_mentions": +add_serif_event_mentions+,
+    "add_serif_entity_mentions": +add_serif_entity_mentions+,
+    "average_embeddings": +average_embeddings+,
+    "entitymention.fuzzy_token_backing": +entitymention_fuzzy_token_backing+,
+    "anchor.fuzzy_token_backing": +anchor_fuzzy_token_backing+
+}

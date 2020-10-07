@@ -1,0 +1,17 @@
+job_name: train_learnit_8_18_20 
+
+stages_to_run: preprocess,train
+# stages_to_run: preprocess,train,test,decode
+#stages_to_run: preprocess,tune,train
+num_of_batches_global: 50
+only_cpu_available: false
+
+tasks: entity_relation_bert_mention,event_relation_pytorch
+train_canonical_template_dir: /nfs/raid88/u10/users/jcai/nlplingo-master/nlplingo/sequences/templates/learnit/train
+#test_canonical_template_dir: /nfs/raid88/u10/users/jcai/nlplingo-master/nlplingo/sequences/templates/canonical/test
+#decode_canonical_template_dir: /nfs/raid88/u10/users/jcai/nlplingo-master/nlplingo/sequences/templates/canonical/decode
+in_memory: 0
+
+k_folds: 6
+#tune_canonical_template_dir: /home/criley/repos/nlplingo/sequences/templates/criley/tune
+#tuning_params_dir: /home/criley/repos/nlplingo/perl_lib/tuning_objects

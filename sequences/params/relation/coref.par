@@ -1,0 +1,13 @@
+job_name: train_relation_models_6_16_20_2
+
+stages_to_run: preprocess 
+mode: CauseEx
+num_of_batches_global: 1 
+only_cpu_available: false
+breaking_point: 10000
+
+tasks: eventcoref,entitycoref
+eventcoref: /nfs/raid88/u10/users/jcai/tasks/eventcoref/params/small.json
+entitycoref: /nfs/raid88/u10/users/jcai/tasks/entitycoref/params/small.json
+eventcoref_batches: 1
+entitycoref_batches: 1

@@ -1,0 +1,20 @@
+exptName: eer_bert_embedded_cnn_e300 
+nlplingo_mode: train_evevr_from_file
+
+train_filelist: /nfs/raid88/u10/users/jcai/eer-serifxml/E48_E61_E70_E82_E83_serifxml_bert.list
+dev_filelist: /nfs/raid88/u10/users/jcai/eer-serifxml/E48_E61_E70_E82_E83_serifxml_bert.list
+test_filelist: /nfs/raid88/u10/users/jcai/eer-serifxml/E48_E61_E70_E82_E83_serifxml_bert.list
+
+TEXT_OPEN: /nfs/raid88/u10/users/jcai/modern/text-open/src/python
+NLPLINGO: /nfs/raid88/u10/users/jcai/code/fresh/nlplingo
+PYTHON_GPU:  /d4m/material/software/python/singularity/bin/singularity-python.sh -i python3.6-cuda10.0  -l "/nfs/raid88/u10/users/jcai/code/fresh/nlplingo:/nfs/raid88/u10/users/jcai/modern/text-open/src/python" -v "/nfs/raid88/u10/users/ychan-ad/miniconda3/envs/t/" --gpu
+PYTHON_CPU: /nfs/raid87/u11/users/hqiu/miniconda_prod/envs/nlplingo-cpu/bin/python
+
+domain_ontology: /nfs/raid87/u10/shared/Hume/common/event_event_relation/models/opennre-data/ontology.txt
+features: "sentence_word_embedding_vector", "arg1_position_data", "arg2_position_data"
+model_type: event-event-relation_cnn-embedded
+negative_trigger_words: /nfs/raid88/u10/users/ychan/nlplingo_models/better/bp_coarse_trigger/negative_trigger_words
+vector_size: 768
+
+add_serif_event_mentions: true 
+add_serif_entity_mentions: false 

@@ -1,0 +1,9 @@
+job_name: canonical_7_2_20
+
+stages_to_run: preprocess,train
+num_of_batches_global: 50
+only_cpu_available: false
+
+tasks: event_relation,event_coref,entity_coref,entity_relation,event_argument,event_trigger,event_relation_pytorch,event_argument_bert_mention,sequence
+canonical_template_dir: /nfs/raid88/u10/users/jcai/nlplingo-master/nlplingo/sequences/templates/canonical_large
+in_memory: 0

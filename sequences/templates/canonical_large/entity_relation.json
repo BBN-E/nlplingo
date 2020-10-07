@@ -1,0 +1,53 @@
+{
+    "data": {
+        "train": {
+            "filelist": "/nfs/raid88/u10/users/jcai/canonical_examples/entiy/filelist"
+        },
+        "dev": {
+            "filelist": "/nfs/raid88/u10/users/jcai/canonical_examples/entiy/filelist"
+        },
+        "test": {
+            "filelist": "/nfs/raid88/u10/users/jcai/canonical_examples/entiy/filelist"
+        }
+    }, 
+    "extractors": [
+        {
+            "domain_ontology": "/nfs/raid88/u10/users/bmin/temp/nlplingo_expts/to_zip/Repo_data/nlplingo/wm_sample/ontology.txt",
+                "activation_function": "softmax",
+                "loss_function": "categorical_crossentropy",
+            "hyper-parameters": {
+                "batch_size": 50, 
+                "hidden_layers": [
+                    512,512
+                ],
+                "dropout": 0.5, 
+                "decode_mode": false, 
+                "entity_embedding_vector_length": 5, 
+                "epoch": 10, 
+                "fine-tune_epoch": 0,
+                "neighbor_distance": 0,
+                "number_of_feature_maps": 200, 
+                "position_embedding_vector_length": 5, 
+                "positive_weight": 1,
+                "train_embeddings": false,
+                "max_sentence_length": 200,
+                "early_stopping": false
+            },
+            "embeddings": {
+                "vector_size": 768
+            },
+            "model_file": "+output_dir+/entity_relation.hdf",
+            "features": [
+                "arg0_arg1_window_vector"
+            ], 
+            "model_type": "entity-entity-relation_multilayer-embedded"
+        }
+    ],
+    "trigger.negative_words": "/nfs/raid88/u10/users/bmin/temp/nlplingo_expts/to_zip/Repo_misc/nlplingo/bp_coarse/negative_trigger_words",
+    "train.score_file": "+output_dir+/dev.score",
+    "save_model": true,
+    "test.score_file": "+output_dir+/test.score",
+    "add_serif_event_mentions": true, 
+	"add_serif_event_event_relation_mentions": true, 
+	"add_serif_entity_entity_relation_mentions": true
+}

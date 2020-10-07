@@ -1,0 +1,20 @@
+############
+## Pipeline
+############
+job_name: train_ldc_bert_giga_cnn_8_20_20_1
+
+stages_to_run: train_ldc_bert,train_giga_cnn 
+mode: CauseEx
+num_of_batches_global: 50 
+only_cpu_available: false
+breaking_point: 10000
+
+input_train_file_bert: /nfs/raid88/u10/users/jcai/code/ldc_data/ldc_dart_mention_pool_merge.txt
+input_val_file_bert: /nfs/raid88/u10/users/jcai/code/ldc_data/ldc_dart_mention_pool_merge.txt
+num_epoch_bert: 7
+ontology_bert: /nfs/raid88/u10/users/jcai/code/nlplingo_test_scripts/ontology/ldc_ontology.txt
+
+input_train_file_cnn: /nfs/raid88/u10/users/jcai/code/learnit-gigaword-cnn-opennre-copy/benchmark/causality_large/train.txt
+input_val_file_cnn: /nfs/raid88/u10/users/jcai/code/learnit-gigaword-cnn-opennre-copy/benchmark/causality_large/test.txt
+num_epoch_cnn: 7
+ontology_cnn: /nfs/raid88/u10/users/jcai/code/nlplingo_test_scripts/ontology/lg_ontology.txt

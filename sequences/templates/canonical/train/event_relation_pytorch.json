@@ -1,0 +1,58 @@
+{
+    "data": {
+        "train": {
+            "filelist": "/nfs/raid88/u10/users/jcai/eer-serifxml/E70/ev_ev_serifxml_bert.list"
+        },
+        "dev": {
+            "filelist": "/nfs/raid88/u10/users/jcai/eer-serifxml/E70/ev_ev_serifxml_bert.list"
+        },
+        "test": {
+            "filelist": "/nfs/raid88/u10/users/jcai/eer-serifxml/E70/ev_ev_serifxml_bert.list"
+        }
+    }, 
+    "extractors": [
+        {
+            "domain_ontology": "/nfs/raid88/u10/users/jcai/code/nlplingo_test_scripts/ontology/ldc_ontology.txt",
+                "activation_function": "NONE",
+                "loss_function": "NONE",
+            "hyper-parameters": {
+                "batch_size": 64, 
+                "dropout": 0.5, 
+                "epoch": 1,
+                "positive_weight": 5,
+                "max_sentence_length": 128,
+                "decode_mode": false,
+                "early_stopping": false,
+                "encoder": "bert_mention",
+                "load": false,
+                "mention_pool": true,
+                "save_model_path": "+output_dir+",
+                "opennre_dataset": "ldc", 
+                "opennre_rootpath" : "/nfs/raid88/u10/users/jcai/nlplingo_trained_models/opennre-data",
+                "patience" : 2
+            },
+            "embeddings": {
+                "vector_size": 768 
+            },
+            "model_file": "", 
+            "features": [], 
+            "model_type": "event-event-relation_cnn-embedded", 
+            "optimizer": {
+                "name": "adamw",
+                "lr": 2e-5,
+                "weight_decay": 1e-5,
+                "warmup_step": 300
+            },
+            "engine": "pytorch",
+            "seed": 1234,
+            "cpu": false
+        }
+    ],
+    "trigger.negative_words": "/nfs/raid88/u10/users/ychan/nlplingo_models/better/bp_coarse_trigger/negative_trigger_words", 
+    "train.score_file": "+output_dir+/dev.score",
+    "save_model": true,
+    "test.score_file": "+output_dir+/test.score",
+    "add_serif_event_mentions": true,
+    "allow_anchor_as_event_argument": false,
+    "argument_generator.filter_using_entity_type": false
+}

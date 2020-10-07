@@ -1,0 +1,50 @@
+# A canonical params file for ACE pair model
+
+#### expt config
+run: run1
+trigger_model_dir: /nfs/raid87/u13/users/jfaschin/emerg_m11_m11_08232018/batch_00000/
+argument_model_dir: /nfs/raid87/u15/users/ychan/low_shot_keywords/expts/role_model/run2_w3_s30_e10_m200_all_tensorflow/
+
+#### hyper-params
+trigger.positive_weight: 5
+trigger.epoch: 10
+trigger.batch_size: 100
+
+role.positive_weight: 10
+role.epoch: 20
+role.batch_size: 40
+
+#### hyper-params that are currently fixed
+cnn.neighbor_dist: 3
+cnn.use_bio_index: False
+cnn.int_type: int32
+cnn.position_embedding_vec_len: 5
+cnn.filter_length: 3
+cnn.dropout: 0.5
+trigger.num_feature_maps: 200
+role.num_feature_maps: 300
+role.use_event_embedding: False
+role.use_head: True
+role.entity_embedding_vec_length: 10
+
+#### following are fixed
+#### NOTE!! we use 'filelist.test' just to make sure this sample runjobs sequence runs fast.
+#### You should change it to using: train.filelist, dev.filelist, test.filelist
+filelist.test: /home/hqiu/massive/tmp/nlplingo_test_filelist.list
+
+domain: ui
+domain_ontology: /nfs/raid87/u13/users/jfaschin/emerg_m11_m11_08232018/batch_00000/domain_ontology.txt
+
+embedding.embedding_file: /nfs/raid66/u14/users/jfaschin/EN-wform.w.5.cbow.neg10.400.subsmpl.txt.spaceSep.utf8
+embedding.vector_size: 400
+embedding.vocab_size: 251236
+embedding.none_token: .
+embedding.missing_token: the
+embedding.none_token_index: 0
+
+max_sent_length: 201
+
+negative_trigger_words: /nfs/mercury-04/u40/ychan/event_type_extension/negative_words
+# following will be over-written by runjobs. nlplingo will write training model and score files to here, and also read model file from here during decoding
+output_dir: /home/hqiu/massive/tmp/nlplingo_baseline
+

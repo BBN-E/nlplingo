@@ -1,0 +1,124 @@
+{ "$schema":     "http://json-schema.org/schema#",
+  "$id":         "http://mitre.org/schemas/better/bpjson-schema-v9.json",
+  "title":       "BPJSON",
+  "description": "BETTER Program JSON Schema, Version 9, as of December 12, 2019; updated with heads January 27, 2020",
+  "$comment":    "Updated BPJSON schema to aid in validating BPJSON from multiple sources",
+  "definitions": {
+
+      "span": {
+          "type": "object",
+          "required":     ["string"],
+          "properties":   {
+              "string":   {"type": "string"},
+              "start":    {"type": "integer"},
+              "end":      {"type": "integer"},
+              "hstring":  {"type": "string"},
+              "hstart":   {"type": "integer"},
+              "hend":     {"type": "integer"},
+	      "no-head":  {"type": "boolean"},
+              "synclass": {"type": "string", "enum": ["Name", "Nominal", "Pronoun", "NotEntity-NotEvent", "Event-Anchor"]}}},
+
+      "spanset": {
+          "type":       "object",
+          "required":   ["spans"],
+          "additionalProperties": false,
+          "properties": {
+              "ssid":  {"type": "string"},
+              "spans": {"type": "array", "items": {"$ref": "#/definitions/span"}}}},
+
+      "provenance":
+         {"type": "object",
+          "properties":
+              {"annotation-date":        {"type": "string"},
+               "annotation-procedure":   {"type": "string", "enum": ["pretagger", "mturk", "mat"]},
+               "annotator-class":        {"type": "string", "enum": ["crowd", "mitre", "system", "pretagger"]},
+               "annotator-id":           {"type": "string"},
+               "annotations-role":       {"type": "string", "enum": ["reference", "system"]},
+               "hit-id":                 {"type": "string"},
+               "worker-id":              {"type": "string"},
+               "corpus-id":              {"type": "string"},
+               "corpus-creation-date":   {"type": "string"},
+               "source":                 {"type": "string"},
+               "validations":            {"type": "object",
+                                          "propertyNames":        {"type": "string"},
+                                          "additionalProperties": {"type": "string", "enum": ["yes", "no"]}},
+               "naive-bayes":            {"type": "object",
+                                          "properties": {"answer": {"type": "string", "enum": ["yes", "no"]},
+                                                         "score":  {"type": "number"}}},
+               "revalidations":          {"type": "object",
+                                          "propertyNames":        {"type": "string"},
+                                          "additionalProperties": {"type": "string", "enum": ["yes", "no"]}},
+               "quadclass-mv-judgments": {"type": "object",
+                                          "propertyNames":        {"type": "string"},
+                                          "additionalProperties": {"type": "string", "enum": ["yes", "no"]}},
+               "quadclass-hh-judgments": {"type": "object",
+                                          "propertyNames":        {"type": "string"},
+                                          "additionalProperties": {"type": "string", "enum": ["yes", "no"]}},
+               "event-in-xml":           {"type": "string"}}},
+
+      "abstract-event": {
+          "type": "object",
+          "required":   ["agents", "patients", "anchors", "helpful-harmful", "material-verbal"],
+          "additionalProperties": false,
+          "properties": {
+              "eventid":         {"type": "string"},
+              "helpful-harmful": {"type": "string", "enum": ["helpful", "harmful", "neutral"]},
+              "material-verbal": {"type": "string", "enum": ["material", "verbal", "both", "unk"]},
+              "agents":          {"type": "array", "items": {"type": "string"}},
+              "patients":        {"type": "array", "items": {"type": "string"}},
+              "anchors":         {"type": "string"},
+              "valid":           {"type": "string", "enum": ["true", "false"]},
+              "provenance":      {"$ref": "#/definitions/provenance"}}},
+
+      "annotation-set":
+         {"type": "object",
+          "additionalProperties": false,
+          "required":   ["abstract-events"],
+          "properties":
+              {"abstract-events": 
+                 {"type": "object",
+                  "required": ["events", "span-sets"],
+                  "properties":
+                      {"events":   {"type":                 "object",
+                                    "propertyNames":        {"type": "string"},
+                                    "additionalProperties": {"$ref": "#/definitions/abstract-event"}}},
+                      "span-sets": {"type":                 "object",
+                                    "propertyNames":        {"type": "string"},
+                                    "additionalProperties": {"$ref": "#/definitions/spanset"}},
+                      "directional-coref": {"type":                 "object",
+                                            "propertyNames":        {"type": "string"},
+                                            "additionalProperties": {"type": "array", "items": {"type": "array", "items": {"type": "string"}}}}}}},
+
+      "entry":
+         {"type": "object",
+          "additionalProperties": false,
+          "required":   ["entry-id"],
+          "properties": {
+              "entry-id":        {"type": "string"},
+              "doc-id":          {"type": "string"},
+              "sent-id":         {"type": "string"},
+              "provenance":      {"$ref": "#/definitions/provenance"},
+              "segment-type":    {"type": "string", "enum": ["sentence", "document"]},
+	      "segment-text":    {"type": "string"},
+	      "start-in-source": {"type": "number"},
+	      "end-in-source":   {"type": "number"},
+	      "segment-start":   {"type": "number"},
+	      "segment-end":     {"type": "number"},
+	      "source-type":     {"type": "string"},
+              "annotation-sets": {"$ref": "#/definitions/annotation-set"}}}
+  },
+
+  "type":       "object",
+  "required":   ["format-type", "format-version", "corpus-id", "entries"],
+  "properties":
+     {"format-type":      {"type": "string", "enum": ["bp-corpus"]},
+      "format-version":   {"type": "string", "enum": ["v8f", "v9"]},
+      "corpus-id":        {"type": "string"},
+      "annotations-role": {"type": "string", "enum": ["reference", "system"]},
+      "annotator-type":   {"type": "string", "enum": ["mturk", "mitre", "system", "pretagger-v1"]},
+      "annotator-id":     {"type": "string"},
+      "hit-id":           {"type": "string"},
+      "entries":          {"type":                 "object",
+                           "propertyNames":        {"type": "string"},
+                           "additionalProperties": {"$ref": "#/definitions/entry"}}}
+}

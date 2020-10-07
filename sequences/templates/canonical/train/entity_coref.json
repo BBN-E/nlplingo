@@ -1,0 +1,50 @@
+{
+    "data": {
+        "train": {
+            "filelist": "/nfs/raid88/u10/users/jcai/tasks/eventcoref/params/train.filelist"
+        },
+        "dev": {
+            "filelist": "/nfs/raid88/u10/users/jcai/tasks/eventcoref/params/dev.filelist"
+        },
+        "test": {
+            "filelist": "/nfs/raid88/u10/users/jcai/tasks/eventcoref/params/test.filelist"
+        }
+    }, 
+    "extractors": [
+        {
+            "domain_ontology": "/nfs/raid88/u10/users/ychan-ad/nlplingo_models/canonical/entitycoref/ontology.txt",
+            "embeddings": {
+                "vector_size": 3072
+            },
+            "activation_function": "sigmoid",
+            "loss_function": "contrastive_loss",
+            "hyper-parameters": {
+                "batch_size": 200, 
+                "hidden_layers": [
+                    512,512
+                ],
+                "dropout": 0.5, 
+                "epoch": 2, 
+                "decode_mode": false, 
+                "fine_tune_epoch": 0,
+                "neighbor_distance": 1,
+                "positive_weight": 1,
+                "train_embeddings": false,
+                "max_sentence_length": 200,
+                "early_stopping": false
+            },
+            "model_file": "+output_dir+/entity_coref.hdf", 
+            "features": [
+                "arg0_window_vector","arg1_window_vector"
+            ], 
+            "model_type": "entitycoref_embedded",
+            "max_positive_examples": 100000,
+            "max_negative_examples": 400000
+        }
+    ],
+    "train.score_file": "+output_dir+/dev.score",
+    "save_model": true,
+    "test.score_file": "+output_dir+/test.score",
+    "add_serif_entity_mentions": false
+}
+

@@ -1,0 +1,21 @@
+exptName: bp_coarse_trigger_8d_tune.d1d2
+nlplingo_mode: train_trigger_from_file
+
+train_filelist: /nfs/raid88/u10/users/ychan/nlplingo_models/better/bp_coarse_trigger/filelist/train.filelist
+dev_filelist: /nfs/raid88/u10/users/ychan/nlplingo_models/better/bp_coarse_trigger/filelist/analysis.filelist
+test_filelist: /nfs/raid88/u10/users/ychan/nlplingo_models/better/bp_coarse_trigger/filelist/devtest.filelist
+
+TEXT_OPEN: /nfs/raid88/u10/users/ychan/repos/text-open/src/python
+NLPLINGO: /nfs/raid88/u10/users/ychan/repos/nlplingo
+PYTHON_GPU: /nfs/raid87/u11/users/hqiu/miniconda_prod/envs/nlplingo-gpu/bin/python
+PYTHON_CPU: /nfs/raid87/u11/users/hqiu/miniconda_prod/envs/nlplingo-cpu/bin/python
+
+domain_ontology: /nfs/raid88/u10/users/ychan/nlplingo_models/better/bp_coarse_trigger/ontology.d1d2.txt
+features: trigger_window_vector
+model_type: event-trigger_multilayer-embedded
+negative_trigger_words: /nfs/raid88/u10/users/ychan/nlplingo_models/better/bp_coarse_trigger/negative_trigger_words
+vector_size: 3072
+
+add_serif_event_mentions: true
+add_serif_entity_mentions: true
+

@@ -1,0 +1,59 @@
+{
+    "data": {
+        "train": {
+            "filelist": "/nfs/raid88/u10/users/jcai/eer-serifxml/E70/ev_ev_serifxml_bert.list"
+        },
+        "dev": {
+            "filelist": "/nfs/raid88/u10/users/jcai/eer-serifxml/E70/ev_ev_serifxml_bert.list"
+        },
+        "test": {
+            "filelist": "/nfs/raid88/u10/users/jcai/eer-serifxml/E70/ev_ev_serifxml_bert.list"
+        }
+    }, 
+    "extractors": [
+        {
+            "domain_ontology": "/nfs/raid88/u10/users/jcai/clean/nlplingo/scripts/ontology.txt", 
+                "activation_function": "softmax",
+                "loss_function": "categorical_crossentropy",
+            "hyper-parameters": {
+                "batch_size": 30, 
+                "hidden_layers": [
+                    768,768
+                ],
+                "dropout": 0.5, 
+                "entity_embedding_vector_length": 5, 
+                "decode_mode": false, 
+                "epoch": 10, 
+                "fine-tune_epoch": 0,
+                "neighbor_distance": 1,
+                "number_of_feature_maps": 200, 
+                "position_embedding_vector_length": 5, 
+                "positive_weight": 5,
+                "train_embeddings": false,
+                "max_sentence_length": 200,
+                "early_stopping": false
+            },
+            "embeddings": {
+                "vector_size": 768 
+            },
+            "model_file": "+output_dir+/event_relation.hdf", 
+            "features": [
+                "arg0_arg1_window_vector"
+            ], 
+            "load_from_disk": false,
+            "disk_base_path": "/nfs/raid88/u10/users/jcai/nlplingo_features",
+            "model_type": "event-event-relation_multilayer-embedded", 
+            "optimizer": {
+                "name": "Adam",
+                "lr": 0.00001
+            }
+        }
+    ],
+    "trigger.negative_words": "/nfs/raid88/u10/users/ychan/nlplingo_models/better/bp_coarse_trigger/negative_trigger_words", 
+    "train.score_file": "+output_dir+/dev.score",
+    "save_model": true,
+    "test.score_file": "+output_dir+/test.score",
+    "add_serif_event_mentions": true,
+    "allow_anchor_as_event_argument": false,
+    "argument_generator.filter_using_entity_type": false
+}

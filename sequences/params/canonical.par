@@ -1,0 +1,16 @@
+job_name: canonical_7_1_20
+
+stages_to_run: preprocess,train,test,decode
+#stages_to_run: preprocess,tune,train
+num_of_batches_global: 5
+only_cpu_available: false
+
+tasks: event_relation,event_coref,entity_coref,entity_relation,event_argument,event_trigger,event_relation_pytorch,event_argument_bert_mention,sequence
+#train_canonical_template_dir: /nfs/raid88/u10/users/jcai/nlplingo-master/nlplingo/sequences/templates/canonical/train
+#test_canonical_template_dir: /nfs/raid88/u10/users/jcai/nlplingo-master/nlplingo/sequences/templates/canonical/test
+#decode_canonical_template_dir: /nfs/raid88/u10/users/jcai/nlplingo-master/nlplingo/sequences/templates/canonical/decode
+in_memory: 0
+
+k_folds: 6
+#tune_canonical_template_dir: /home/criley/repos/nlplingo/sequences/templates/criley/tune
+#tuning_params_dir: /home/criley/repos/nlplingo/perl_lib/tuning_objects

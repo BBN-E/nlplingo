@@ -1,0 +1,34 @@
+{
+    "bp_file": "/d4m/better/data/events/BETTER-Abstract-Events-English-Data/abstract-8d-inclusive.analysis.update2.bp.json",
+    "data": {
+        "test": {
+            "filelist": "/nfs/raid88/u10/users/ychan-ad/nlplingo_models/better/data/serif_files.analysis.list"
+        }
+    },
+    "extractors": [
+        {
+            "cache_dir": "/nfs/raid88/u10/users/ychan/BETTER/transformers_ner/cache",
+            "domain_ontology": "/nfs/raid88/u10/users/ychan/BETTER/transformers_ner/experiments/decoding/ontology.txt",
+            "engine": "transformers",
+            "extractor_name": "xlm-roberta-base",
+            "keep_unannotated_sentences": true,
+            "model_file": "/nfs/raid88/u10/users/ychan-ad/nlplingo_models/better/xlmr_base/trigger/e4b16lr5e-05tSPACE/output/xlm-roberta-base",
+            "model_type": "xlm-roberta",
+            "task": "event-trigger",
+            "tokenization_type": "SPACE"
+        },
+        {
+            "cache_dir": "/nfs/raid88/u10/users/ychan/BETTER/transformers_ner/cache",
+            "domain_ontology": "/nfs/raid88/u10/users/ychan/BETTER/transformers_ner/experiments/decoding/ontology.txt",
+            "engine": "transformers",
+            "extractor_name": "xlm-roberta-base",
+            "keep_unannotated_sentences": true,
+            "model_file": "/nfs/raid88/u10/users/ychan-ad/nlplingo_models/better/xlmr_base/argument/e4b16lr5e-05tSPACE/output/xlm-roberta-base",
+            "model_type": "xlm-roberta",
+            "task": "event-argument",
+            "tokenization_type": "SPACE"
+        }
+    ],
+    "output_bp": "/nfs/raid88/u10/users/ychan/explore_transformer/xlmr/output/system.bp.json",
+    "predictions_file": "/nfs/raid88/u10/users/ychan/explore_transformer/xlmr/output/predictions.json.as_obj"
+}

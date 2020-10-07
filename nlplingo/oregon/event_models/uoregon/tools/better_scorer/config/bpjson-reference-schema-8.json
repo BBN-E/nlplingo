@@ -1,0 +1,95 @@
+{"$schema": "http://mitre.org/schema/bpjson/reference/7.1" }
+
+ "definitions":
+  {"span":
+     {"type": "object",
+      "properties":
+        {"string": "string",
+         "start":  "number",
+         "end":    "number"}},
+
+   "spanset":
+     {"type": "object",
+      "properties":
+        {"ssid":  "string",
+         "spans":
+           {"type":  "array",
+            "items": {"$ref": "#/definitions/span"},
+            "default": [] }}},
+
+   "spansets":
+     {"type": "object",
+      "properties":
+        {"ssid":     "string",
+         "spanset":  {"$ref": "#/definitions/spanset"}}},
+
+   "absevent":
+     {"type": "object",
+      "properties":
+        {"evtid":  "string",
+         "material": "string",
+         "helpful":  "string",
+         "agents":   {"type":  "array", "items": "string"}
+         "patients": {"type":  "array", "items": "string"}
+         "anchor":   "string"}},
+
+   "absevents":
+     {"type": "object",
+      "properties":
+        {"evtid":     "string",
+         "spanset":  {"$ref": "#/definitions/spanset"}}},
+
+
+
+ "type" : "object",
+ "properties" :
+  {"format-type":      {"type" : "string"},
+   "format-version":   {"type" : "string"},
+   "corpus-id":        {"type" : "string"},
+   "annotations-role": {"type" : "string"},
+   "annotator-id":     {"type" : "string"},
+   "annotator-type":   {"type" : "string"},
+   "entries":
+     {
+   "format-version": {"type" : "string"},
+   "format-version": {"type" : "string"},
+
+   "name" : {"type" : "string"}
+  }
+}
+
+
+{"format-type":        "bp-corpus",
+ "format-version":     "7.1",
+ "corpus-id":          "sents-set-10",
+ "annotations-role":   "reference",
+ "annotator-id":       "turker-1234",
+ "annotator-type":     "turker",
+ "annotation-types":   ["abstract-events"],
+ "entries":
+   {"entry-id":      "sent-10-2",
+    "source":        "sents-set-10.txt",
+    "segment-type":  "sentence",
+    "segment-start": 42,
+    "segment-end":   84,
+    "segment-text":  "Ellen opened the door to welcome the chef.",
+    "annotation-sets": {
+      "abstract-events":
+        {"events":
+          {"e7": {"material-verbal": "Material",
+	          "helpful-harmful": "Helpful",
+                  "agents":    ["ss6"],
+                  "patients":  ["ss5"],
+                  "anchor":    "ss4"},
+           "e5": {"material-verbal": "Verbal",
+	          "helpful-harmful": "Helpful",
+                  "agents":    ["ss6"],
+                  "patients":  ["ss2"],
+                  "anchor":    "ss3"}}   
+         "span-sets":
+           {"ss6": {"spans": [{"string": "Ellen"}]},
+            "ss5": {"spans": [{"string": "the door"}]},
+            "ss4": {"spans": [{"string": "opened"}]},
+            "ss3": {"spans": [{"string": "welcome"}]},
+            "ss2": {"spans": [{"string": "the chef"}]}
+     }}}

@@ -1,0 +1,50 @@
+{
+    "data": {
+        "train": {
+            "txt": "+input_train_file+"
+        },
+        "dev": {
+            "txt": "+input_val_file+"
+        }
+    }, 
+    "extractors": [
+        {
+            "domain_ontology": "+ontology_file+",
+            "hyper-parameters": {
+                "batch_size": 64, 
+                "dropout": 0.5, 
+                "epoch": +num_epoch+,
+                "positive_weight": 5,
+                "position_embedding_vector_length": 5,
+                "max_sentence_length": 128,
+                "decode_mode": false,
+                "early_stopping": false,
+                "encoder": "cnn",
+                "load": false,
+                "mention_pool": false,
+                "save_model_path": "+save_model_path+",
+                "dev_score_file": "+save_model_path+/dev.score_file",
+                "test_score_file": "+save_model_path+/test.score_file",
+                "opennre_dataset": "learnit-gigaword", 
+                "opennre_rootpath" : "/nfs/raid88/u10/users/jcai/nlplingo_trained_models/opennre-data"
+            },
+            "embeddings": {
+                "vector_size": 50 
+            },
+            "model_file": "", 
+            "features": [], 
+            "load_from_disk": false,
+            "disk_base_path": "",
+            "model_type": "event-event-relation_cnn-embedded", 
+            "optimizer": {
+                "name": "sgd",
+                "lr": 1e-1,
+                "weight_decay": 1e-5,
+                "warmup_step": 300
+            },
+            "engine": "pytorch",
+            "seed": 1234,
+            "cpu": false
+        }
+    ]
+}

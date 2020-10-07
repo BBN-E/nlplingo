@@ -1,0 +1,54 @@
+{
+    "data": {
+        "train": {
+            "filelist": "/nfs/raid88/u10/users/jcai/tasks/eventcoref/params/train.filelist"
+        },
+        "dev": {
+            "filelist": "/nfs/raid88/u10/users/jcai/tasks/eventcoref/params/dev.filelist"
+        },
+        "test": {
+            "filelist": "/nfs/raid88/u10/users/jcai/tasks/eventcoref/params/test.filelist"
+        }
+    }, 
+    "extractors": [
+        {
+            "domain_ontology": "/nfs/raid88/u10/users/ychan/data/ace/role_mappings.ace.txt", 
+            "embeddings": {
+                "vector_size": 3072
+            },
+                "activation_function": "sigmoid",
+                "loss_function": "contrastive_loss",
+            "hyper-parameters": {
+                "batch_size": 20, 
+                "hidden_layers": [
+                    512,512
+                ],
+                "dropout": 0.5, 
+                "decode_mode": false, 
+                "epoch": 30, 
+                "fine_tune_epoch": 0,
+                "neighbor_distance": 0,
+                "positive_weight": 5,
+                "train_embeddings": false,
+                "max_sentence_length": 200,
+                "early_stopping": false
+            },
+            "optimizer": {
+                "name": "Adam",
+                "lr": 0.00001
+            },
+            "model_file": "+output_dir+/event_coref.hdf", 
+            "features": [
+                "arg0_window_vector","arg1_window_vector"
+            ], 
+            "model_type": "eventcoref_embedded",
+            "max_positive_examples": 100000,
+            "max_negative_examples": 400000
+        }
+    ],
+    "train.score_file": "+output_dir+/dev.score",
+    "save_model": true,
+    "test.score_file": "+output_dir+/test.score",
+    "add_serif_entity_mentions": false
+}
+

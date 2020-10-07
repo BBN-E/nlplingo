@@ -1,0 +1,14 @@
+job_name: train_relation_models_6_16_20
+
+stages_to_run: preprocess 
+mode: CauseEx
+num_of_batches_global: 50 
+only_cpu_available: false
+breaking_point: 10000
+
+tasks: eventcoref,eventrelation,entitycoref
+eventcoref: /nfs/raid88/u10/users/ychan-ad/nlplingo_models/canonical/eventcoref/params/train.json
+eventargument: /nfs/raid88/u10/users/ychan-ad/nlplingo_models/canonical/argument/params/train_multilayer.json
+entityrelation: /nfs/raid88/u10/users/jcai/canonical_examples/entiy/train_entity_entity_relation.json
+entitycoref: /nfs/raid88/u10/users/ychan-ad/nlplingo_models/canonical/entitycoref/params/train.json
+eventrelation: /nfs/raid88/u10/users/jcai/code/nlplingo_test_scripts/scripts/params/eer_keras.json
