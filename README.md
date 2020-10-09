@@ -1,4 +1,4 @@
-### NLPLingo
+# NLPLingo
 
 BBN's Deep Learning toolkit for event extraction and causal relation extraction.
 
