@@ -1,3 +1,6 @@
+### NLPLingo
+
+BBN's Deep Learning toolkit for event extraction and causal relation extraction.
 
 #### Coding conventions
 
@@ -102,4 +105,8 @@ Comments:
 - We'll normally do hyper-parameters search over (cnn.neighbor_dist, *.positive_weight, *.batch_size, *.num_feature_maps, *.epoch)
 - Note that each run will produce different scores/results (e.g. due to drop-out). So we also normally do a few runs per hyper-params setting, and take the one which performs best on dev.
 - The hdf and pickle are model files.
+
+### Acknowledgments
+
+This work was supported by DARPA/I2O and U.S. Air Force Research Laboratory Contract No. FA8650-17-C-7716 under the Causal Exploration program, and DARPA/I2O and U.S. Army Research Office Contract No. W911NF-18-C-0003 under the World Modelers program. The views, opinions, and/or findings expressed are those of the author(s) and should not be interpreted as representing the official views or policies of the Department of Defense or the U.S. Government. This document does not contain technology or technical data controlled under either the U.S. International Traffic in Arms Regulations or the U.S. Export Administration Regulations.
 
